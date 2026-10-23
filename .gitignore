@@ -1,0 +1,17 @@
+# Media and working files: never commit (size + church content)
+work/
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.webm
+*.mkv
+
+# Local environments and model caches
+.venv/
+hf-cache/
+__pycache__/
+
+# macOS junk (also created on exFAT drives)
+.DS_Store
+._*

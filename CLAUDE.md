@@ -40,6 +40,7 @@
 ## Urgent, off-ledger: Fall tuition registration hold
 - The fall hold is **$3,800.48** (confirmed by Ark 2026-10-23; higher than the ~$3,000 first estimate). It blocks Spring 2027 registration. The unpaid summer balance ($2,000) is **not** part of the hold. Ark's registration slot is **Mon Nov 9, 2026, 9:00 AM** (confirmed in WebReg).
 - Ark already has a backup course schedule and prefers to keep it private. Don't ask for it.
+- From past calls, Ark knows **partial payment does not lift the hold**: the full $3,800.48 must clear. Ark can register up to **~1 week late (~Nov 16)** if necessary, but would prefer not to.
 - Ark's dad is paying Spring 2027 tuition.
 - The side hustle **cannot** produce $3,800 by Nov 9. This is handled through Rutgers offices and family, not project milestones. Track progress in `log.md`.
 
@@ -50,9 +51,16 @@
 ## Open questions to ask Ark
 - Which Rutgers campus/school? (Assumed New Brunswick.)
 - Credit card: exact 0% end date and post-intro APR (printed on the statement or in the card app).
+- Who is covering the $3,800.48 hold, and by when?
+- Mac chip (Apple Silicon vs Intel), laptop free space, SSD format + free space (see guide Step 0).
 
-## Repo
-- Pushed to private GitHub repo `arksouyang/money-builder` (branch `main`). Commit and push at the end of every session so nothing is lost when the cloud container is reclaimed.
+## Repo, sessions, and where work happens
+- Source of truth: private GitHub repo `arksouyang/money-builder` (branch `main`). **Commit and push at the end of every session.** Cloud containers are wiped after inactivity, and anything not pushed is lost.
+- **Cloud session** (claude.ai/code or the Claude app → new session → repo `arksouyang/money-builder`): planning, check-ins, writing, outreach drafts. Can't touch Ark's computer or SSD.
+- **Local session** (Mac Terminal: `cd /Volumes/<SSD>/money-builder && claude`): the sermon pipeline (downloads, speech-to-text, video). Ark's laptop is low on space, so **everything big goes on the external SSD**: repo, Python venv, model cache (HF_HOME), audio in `work/`.
+- To start any session, Ark types: **"Start session per CLAUDE.md."**
+- Step-by-step pipeline walkthrough: `guides/01-first-sermon.md`.
+- **Time zone:** Ark is in New Jersey (US Eastern). Cloud containers run on UTC, so convert before writing dates in logs and the ledger.
 
 ## File conventions
 - `ledger.csv`: **project money only.** Columns: `date,source,description,income,expense,running_balance`. Dates as YYYY-MM-DD. `running_balance` = previous balance + income − expense. When project profit pays a debt, log it as an expense with source `Debt: <name>`.
