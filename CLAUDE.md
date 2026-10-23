@@ -59,9 +59,14 @@
 - Credit card: ~$1,000. 0% intro ends ~early March 2027 (unconfirmed). Pay at least the minimum monthly.
 - Summer tuition $2,000 (no hold). Friend $2,000 / sister $7,000: no deadline.
 
+## Accounts and tools (confirmed 2026-10-22)
+- Ark will make **new `.archive` YouTube channels** for the 4 topics. All 4 can live under one Google account (Brand Accounts).
+- **New TikTok + Instagram accounts** matching each channel name. **Never Ark's personal accounts.** Each needs its own email or phone number.
+- Editing: **CapCut Pro on the Mac** (Ark's own subscription). CapCut has no official automation API (third-party draft-file tools are fragile and don't export on macOS), so Claude doesn't edit inside CapCut. Proposed split: a Claude Code **rough-cut tool** (silence removal, loudness, 9:16 framing, title ideas) → Ark polishes in CapCut (captions, hook text, music). Point CapCut's project/cache folders at the SSD.
+
 ## Open questions to ask Ark
-- Confirm the 4-channel topic mapping above. Are the four `.archive` channels being reused for these, or new channels?
-- Which TikTok / Instagram accounts exist already?
+- Confirm the 4-channel topic mapping and the exact `.archive` names.
+- Build the rough-cut tool? (offered 2026-10-22)
 - SSD format (local Claude Code can check with `diskutil info`).
 - Credit card exact 0% end date + post-intro APR.
 

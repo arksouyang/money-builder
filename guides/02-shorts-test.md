@@ -26,9 +26,13 @@
 | Post | ~1 h | YouTube Shorts first, then TikTok + Reels (same file). |
 | Track | ~30 min | Once a week: fill in the 7-day numbers in `content-tracker.csv`. |
 
-**Laptop space:** keep footage on your phone or the SSD, never the Mac's internal drive. Don't install big editing software on the laptop. Use something free you already know, or a phone editor.
+**Editing: CapCut Pro + Claude rough cut**
+1. AirDrop the raw clips from your phone to the SSD (`work/raw/`).
+2. *(If the rough-cut tool is built)* A local Claude Code session cuts the pauses, evens out the volume, frames it 9:16, and suggests titles. Output goes to `work/rough/`.
+3. Open each in **CapCut Pro**: auto-captions, hook text, music. Export to `work/final/`.
+4. Upload the **same clean export** to YouTube Shorts, TikTok, and Reels. Never re-upload a video downloaded from another app (watermarks).
 
-**Captions:** the speech-to-text setup in `guides/01-first-sermon.md` Step 1 also works for your own videos. A local Claude Code session can turn your voice into captions and burn them in.
+**Laptop space:** keep footage on the SSD, never the Mac's internal drive. In CapCut's settings, point the project and cache folders at the SSD if possible.
 
 ## Fair-test rules
 - **Same number per channel** before judging (Round 1: 5 each; Round 2: 10 each).
