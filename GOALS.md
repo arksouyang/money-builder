@@ -8,7 +8,7 @@
 
 **Target date:** Sun Nov 8, 2026 (end of the 2-week sprint)
 **Done when:** `ledger.csv` shows ≥ $20 of real income (balance ≥ $0).
-**How:** first paid sermon subtitle job. Fallback after Nov 1: one paid one-off translation job from the same community contacts.
+**How:** first paid sermon subtitle job. Fallback after Nov 1: one paid one-off translation job (Fiverr or community contacts outside your church).
 
 ---
 

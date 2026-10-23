@@ -9,7 +9,9 @@
 ## Who Ark is
 - 22, psychology major at Rutgers with a full course load. Weekday commitments: assists boss 3:00–5:30 PM daily; coaches table tennis Wed + Fri evenings (sporadic). **Coaching is not part of this project.** Ark keeps it separate, so don't plan around it or count its income.
 - **Realistic budget: ~10 hours/week (~2 hrs/day).** Plan for real hours, not ideal ones. Expect less during midterms/finals.
-- Skills: builds apps with Claude Code (gym tracker, jadeNote webtoon planner; not published); Chinese→English sermon translation (volunteer, own church); writing/webtoon concepts; YouTube (four fresh `.archive` channels, 0 subs).
+- Skills: builds apps with Claude Code (gym tracker, jadeNote webtoon planner; not published); **live** Mandarin→English sermon interpretation (volunteer, own church only; no written translations on file); writing/webtoon concepts; YouTube (four fresh `.archive` channels, 0 subs).
+- **Does not want to interpret in person** for anyone else. Remote, written/subtitle work only.
+- Machine: **Mac M2, laptop nearly full (~12 GB free of 245 GB)**. External SSD with ~200–300 GB free (format not yet checked). Anything big goes on the SSD.
 - Communities: own church, Taiwanese and other multicultural communities.
 - Has: bank account, PayPal, Venmo, Zelle (no Stripe). Works on a PC and a Mac.
 - Prefers to stay **anonymous at first** (no face on camera). Fine to deal with clients one-to-one.
@@ -32,15 +34,18 @@
 - Keep plans sized to ~10 hrs/week and in 60–120 min blocks.
 
 ## Current strategy (set 2026-10-23, see `ideas.md` for full reasoning)
-- **PRIMARY (only active path): Bilingual sermon subtitles.** Chinese→English subtitle files (SRT) and translated transcripts for Chinese-language churches that post sermons online. Ark builds a Claude Code pipeline (speech-to-text → Claude translation with a theology glossary → human review → SRT). Sell through the church network first. Full ~10 hrs/week.
+- **PRIMARY (only active path): Bilingual sermon subtitles.** Chinese→English subtitle files (SRT) and translated transcripts for Chinese-language churches that post sermons online. Ark builds a Claude Code pipeline (speech-to-text → Claude translation with a theology glossary → human review → SRT). Full ~10 hrs/week.
+- **Ark's own church is completely out of this business:** no payment, no referrals, no asking them for anything. Sell to *other* churches through direct outreach. The sales sample is 5 minutes of **the target church's own public sermon**, subtitled and shared privately with that church only. Practice runs can use any public sermon but stay private.
 - **SECONDARY: none for now** (decided 2026-10-23, after Ark took coaching out of the project). Revisit once Tier 0 is hit. YouTube is the leading candidate.
-- **Tier 0 fallback (stays inside the primary path):** if no church has paid by day 7, widen the offer to one-off Chinese→English jobs from the same community contacts (letters, flyers, event materials, menus). Not certified legal/immigration documents.
+- **Tier 0 fallback (stays inside the primary path):** if no church has paid by day 7, widen the offer to one-off Chinese→English jobs (letters, flyers, event materials, menus, video subtitles) via a Fiverr gig and/or community contacts *outside* Ark's church (ask Ark which contacts are OK). Not certified legal/immigration documents.
 - **PARKED: YouTube** (unlock: Tier 1 covered 2 months in a row), **dropshipping** (unlock: a profit-funded, capped test budget), **clothing brand** (only as merch for an audience that already exists).
 
 ## Urgent, off-ledger: Fall tuition registration hold
 - The fall hold is **$3,800.48** (confirmed by Ark 2026-10-23; higher than the ~$3,000 first estimate). It blocks Spring 2027 registration. The unpaid summer balance ($2,000) is **not** part of the hold. Ark's registration slot is **Mon Nov 9, 2026, 9:00 AM** (confirmed in WebReg).
 - Ark already has a backup course schedule and prefers to keep it private. Don't ask for it.
 - From past calls, Ark knows **partial payment does not lift the hold**: the full $3,800.48 must clear. Ark can register up to **~1 week late (~Nov 16)** if necessary, but would prefer not to.
+- $3,800.48 is what's left **after all aid**. Ark has no grants or emergency-fund money; a low GPA affects aid. Ark's parents would cover it, but it would be a heavy burden for them. Don't re-suggest Rutgers grants or emergency funds.
+- **Protect study time.** GPA affects aid eligibility, so it is worth real money. Never plan project work over exams or classes.
 - Ark's dad is paying Spring 2027 tuition.
 - The side hustle **cannot** produce $3,800 by Nov 9. This is handled through Rutgers offices and family, not project milestones. Track progress in `log.md`.
 
@@ -51,8 +56,8 @@
 ## Open questions to ask Ark
 - Which Rutgers campus/school? (Assumed New Brunswick.)
 - Credit card: exact 0% end date and post-intro APR (printed on the statement or in the card app).
-- Who is covering the $3,800.48 hold, and by when?
-- Mac chip (Apple Silicon vs Intel), laptop free space, SSD format + free space (see guide Step 0).
+- SSD format (local Claude Code can check with `diskutil info`).
+- Which community contacts *outside* Ark's church are OK to approach (Taiwanese orgs, friends, family friends)?
 
 ## Repo, sessions, and where work happens
 - Source of truth: private GitHub repo `arksouyang/money-builder` (branch `main`). **Commit and push at the end of every session.** Cloud containers are wiped after inactivity, and anything not pushed is lost.

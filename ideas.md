@@ -49,7 +49,8 @@ Last reviewed: 2026-10-23. Figures marked *(est.)* are my estimates, not verifie
 
 ### A. Bilingual sermon subtitles: ACTIVE (PRIMARY)
 **What:** Chinese-language churches post Mandarin sermons on YouTube or livestream. Their English-dominant second-generation members and visitors often can't follow. You deliver English subtitle files (SRT) and/or translated transcripts each week.
-**Why it fits you:** you already do this for free, so the skill is proven. It uses Claude Code (real build experience for your portfolio), needs no face, and the church network is a warm sales channel. Churches post every week, so one client means recurring revenue.
+**Why it fits you:** you already interpret sermons live every week, so you know the language and the vocabulary. Subtitles are remote and written, so there's no in-person interpreting. It uses Claude Code (real build experience for your portfolio) and needs no face. Churches post every week, so one client means recurring revenue.
+**Sales channel (updated 2026-10-22):** your own church is out entirely. Outreach goes to other churches directly, using a personalized sample: 5 minutes of *their* sermon, subtitled. Cold outreach gets fewer replies than warm intros, so expect to send more messages.
 - **Pipeline (built with Claude Code):** open-source speech-to-text running free on your Mac/PC → Claude translation with a theology glossary (consistent Bible book and term names) → **your human review** → SRT export.
 - **Startup cost:** $0 (free open-source transcription + your existing Claude Pro).
 - **Pricing to test *(est., validate with real churches)*:** $40 per sermon (≤45 min, 48-hr turnaround), or a monthly 4-sermon plan at $140. A free 5-minute sample, never a free full sermon.
@@ -57,7 +58,8 @@ Last reviewed: 2026-10-23. Figures marked *(est.)* are my estimates, not verifie
 - **Time/week:** ~3 hrs building in week 1, then ~1–1.5 hrs per sermon once the pipeline works *(est.)*.
 - **Earnings *(est.)*:** month 1: $0–120 · month 6: $150–600/mo (2–4 churches) · year 1: $2,000–6,000 total *if* clients stay.
 - **Risks:** churches have tight budgets and may expect volunteer work; quality slips on theological terms if you skip the review; transcription accuracy varies with audio quality; it's a small niche, so growth means expanding to Taiwanese/Chinese community orgs, schools, and businesses (bilingual websites = phase 2).
-- **Boundaries:** keep your own church's volunteer work volunteer, and ask them for *referrals*, not payment. Avoid certified legal/immigration translations for now (liability).
+- **Boundaries:** your own church stays volunteer-only and is not involved in the business at all. No in-person interpreting. Avoid certified legal/immigration translations for now (liability).
+- **Expansion later:** the same pipeline works for Chinese-language YouTubers, podcasts, and community orgs wanting English subtitles.
 
 ### B. Table tennis private lessons: REJECTED (out of scope, Ark's choice 2026-10-23)
 _Kept for reference. Coaching continues outside this project, and its income isn't counted in the ledger. With it removed, there's no secondary path for now (revisit after Tier 0)._
