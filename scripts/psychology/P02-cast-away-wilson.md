@@ -12,7 +12,7 @@
 Tom Hanks talking to a volleyball in *Cast Away* isn't him going crazy. It's his brain trying to keep him alive.
 
 **BEAT 1: the brain**
-When people are lonely, they start seeing minds in things that don't have them. Pets, gadgets, a ball with a handprint for a face. Studies have found lonely people are more likely to give human traits to objects. Your brain wants connection so badly it builds one.
+Psychologists have a theory: when you're lonely, your brain starts seeing minds in things that don't have them. Pets, gadgets, a ball with a handprint for a face. A famous 2008 study backed that up, though a bigger one in 2024 couldn't repeat it. Either way, Chuck wanted connection so badly he built one.
 
 **BEAT 2: why it matters**
 And it has a good reason. A huge review of studies found strong social ties predict survival about as much as quitting smoking, and more than exercise or avoiding obesity.
@@ -30,3 +30,5 @@ So Wilson wasn't a sign Chuck was losing it. Wilson is part of why he made it. G
 **Sources:**
 - Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality risk: A meta-analytic review. *PLoS Medicine*, 7(7). (The smoking comparison; also in your Lecture 6 notes.)
 - Epley, N., Akalis, S., Waytz, A., & Cacioppo, J. T. (2008). Creating social connection through inferential reproduction: Loneliness and perceived agency in gadgets, gods, and greyhounds. *Psychological Science*, 19(2), 114–120.
+- Elsherif et al., registered replication of Epley et al. (2008), Peer Community in Registered Reports (recommended June 2024): [no reliable link between loneliness and anthropomorphism](https://rr.peercommunityin.org/articles/rec?id=750). That's why the script says "a theory." If someone comments "that didn't replicate," you already said so.
+- Web-checked 2026-10-23. The smoking, inactivity and obesity comparisons come from the press coverage and the comparison chart in your Lecture 6 notes; the paper's own abstract only says "comparable with well-established risk factors."

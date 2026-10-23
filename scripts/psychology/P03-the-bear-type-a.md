@@ -31,3 +31,4 @@ The good news: it's trainable. In one small trial, hostile patients who got ange
 - Rosenman, R. H., et al. (1976), Western Collaborative Group Study; Haynes, S. G., et al. (1980), Framingham. Type A ≈ 2× CHD risk (Lecture 7).
 - Barefoot, J. C., Dahlstrom, W. G., & Williams, R. B. (1983). Hostility, CHD incidence, and total mortality: A 25-year follow-up study of 255 physicians. *Psychosomatic Medicine*, 45(1), 59–63.
 - Davidson, K. W., et al. (2007). Hostility reduction and hospitalization costs (Lecture 7; n = 13 per group, so "small trial").
+- Chair story: [Scientific American, "The Stressful Discovery of Type A Personality"](https://www.scientificamerican.com/article/the-stressful-discovery-of-type-a-personality/). The upholsterer saw wear on the arms and front edges of the seats. In one interview, Rosenman credited a secretary instead, so keep "as the story goes." Web-checked 2026-10-23, along with the Barefoot 1983 citation (Duke Scholars record).
