@@ -64,8 +64,8 @@
 - **Account map (2026-10-23).** Handle on every platform = the YouTube handle. **Never store passwords in this repo.**
   | Channel | Handle | YouTube | TikTok | Instagram |
   |---|---|---|---|---|
-  | Psychology | `ark.psych.archive` | taiwanesebeefudon@gmail.com | taiwanesebeefudon@gmail.com | not made |
-  | World History | `ark.history.archive` | taiwanesebeefudon@gmail.com | b33fnoodlesoup@gmail.com | not made |
+  | Psychology | `ark.psych.archive` | taiwanesebeefudon@gmail.com | taiwanesebeefudon@gmail.com | taiwanesebeefudon@gmail.com |
+  | World History | `ark.history.archive` | taiwanesebeefudon@gmail.com | b33fnoodlesoup@gmail.com | taiwanesebeefudon@gmail.com |
   | Anime & Webtoons | tbd | not made (waiting on Google verification) | not made | not made |
   | Movies & TV | tbd | not made (waiting on Google verification) | not made | not made |
 - **TikTok rejected the Gmail `+` alias** (2026-10-23), so each TikTok account needs its own real email address.

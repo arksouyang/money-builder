@@ -81,5 +81,7 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 **What worked**
 - Making accounts in small pieces kept the session moving even while Google's verification was pending.
 
+- **Instagram made for psych + history**, both under taiwanesebeefudon@gmail.com (Instagram lets one email hold several accounts).
+
 **Next step**
-- Instagram for psych + history (~15 min), then script the first 6 Shorts (Saturday).
+- Saturday: script the first 6 Shorts with Claude, then film them. When Google's verification clears, make the anime + film channels (each TikTok needs its own email).
