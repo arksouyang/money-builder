@@ -13,7 +13,7 @@
 - **Owns four fresh YouTube channels** under a `.archive` naming convention (0 subs).
 - **On camera: Ark is OK using face and voice** for YouTube (changed 2026-10-22; earlier preference was anonymous).
 - Has: bank account, PayPal, Venmo, Zelle (no Stripe).
-- Machine: **Mac M2, laptop nearly full (~12 GB free of 245 GB)**. External SSD with ~200–300 GB free (format not yet checked). **Anything big (footage, project files, models) goes on the SSD.**
+- Machine: **Mac M2, laptop nearly full (~10 GB free of 228 GB, checked 2026-10-23)**. External SSD `arkDrive`: **exFAT, 2 TB, ~1.95 TB free** (symlinks work). exFAT doesn't journal, so always eject before unplugging. **Anything big (footage, project files, models) goes on the SSD.**
 - **Does not want to cold-message strangers** (the subtitle outreach plan felt bad for this reason). Don't build plans that depend on it.
 - **Ark's own church is not part of this project in any way.** No in-person interpreting for anyone.
 - **Real estate is dropped entirely**, as a business and as a content topic.
@@ -63,17 +63,19 @@
 - Ark will make **new `.archive` YouTube channels** for the 4 topics. All 4 can live under one Google account (Brand Accounts).
 - **New TikTok + Instagram accounts** matching each channel name. **Never Ark's personal accounts.** Each needs its own email or phone number.
 - Editing: **CapCut Pro on the Mac** (Ark's own subscription). CapCut has no official automation API (third-party draft-file tools are fragile and don't export on macOS), so Claude doesn't edit inside CapCut. Proposed split: a Claude Code **rough-cut tool** (silence removal, loudness, 9:16 framing, title ideas) → Ark polishes in CapCut (captions, hook text, music). Point CapCut's project/cache folders at the SSD.
+- **Rough-cut tool: yes** (decided 2026-10-23), build it **once Ark has first footage on the SSD**, not before. FFmpeg for the cut/loudness/9:16 pass; **Remotion** for animated captions, installed inside the tool's project folder on the SSD. Remotion's free license covers individuals and companies of up to 3 people (verified 2026-10-23; re-check at install, since v5.0 changes the license).
+- Installed on the Mac via Homebrew (2026-10-23): **FFmpeg 9.0.2, Node 26**.
+- **yt-dlp deliberately not installed:** it downloads other people's videos, which conflicts with YouTube's terms and the copyright rule above. Ark can download their own uploads from YouTube Studio.
+- Handle rules (verified 2026-10-23; TikTok/Instagram from third-party sources): to work on all 3 platforms, use **letters, numbers, `.` and `_` only, no hyphens, no `.` at the start or end, no `..`, max 24 chars** (TikTok's limit is the tightest).
 
 ## Open questions to ask Ark
 - Confirm the 4-channel topic mapping and the exact `.archive` names.
-- Build the rough-cut tool? (offered 2026-10-22)
-- SSD format (local Claude Code can check with `diskutil info`).
 - Credit card exact 0% end date + post-intro APR.
 
 ## Repo, sessions, and where work happens
 - Source of truth: private GitHub repo `arksouyang/money-builder` (branch `main`). **Commit and push at the end of every session.** Cloud containers are wiped after inactivity.
 - **Cloud session** (claude.ai/code or the Claude app → new session → repo `arksouyang/money-builder`): planning, scripts, ideas, reviewing numbers. Can't touch Ark's computer or SSD.
-- **Local session** (Mac Terminal: `cd "/Volumes/<SSD>/money-builder" && claude`): anything with video/audio files, e.g. auto-captions. Footage lives on the SSD in `work/` (git-ignored). **Never commit video/audio.**
+- **Local session** (Mac Terminal: `cd "/Volumes/arkDrive/money-builder" && claude`, or the Claude desktop app's Code tab on that folder): anything with video/audio files, e.g. auto-captions. Footage lives on the SSD in `work/` (git-ignored). **Never commit video/audio.**
 - To start any session, Ark types: **"Start session per CLAUDE.md."**
 - To move a cloud conversation to the Mac with its full history: from the repo folder on the SSD, run `claude --teleport <session-id>` (needs a clean git state, the branch pushed, and the same claude.ai login). The local copy is separate from then on. Run `/remote-control` locally to keep steering it from the phone.
 - **Time zone:** Ark is in New Jersey (US Eastern). Cloud containers run on UTC, so convert before writing dates.

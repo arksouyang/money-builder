@@ -45,3 +45,21 @@
 Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 1 sets up speech-to-text on the SSD, which gives you auto-captions for your Shorts.
 
 **Next step:** Friday, set up the accounts (~1 h). Saturday, script and film your first 6.
+
+## 2026-10-23 — Session 2 (Fri, ET, local session on the Mac)
+
+**What we did**
+- Checked the SSD: **exFAT, 2 TB, ~1.95 TB free** (far more than the 200–300 GB we'd assumed). Symlinks work, so Node projects can live on it.
+- Ark asked to install the tools from a TikTok workflow (FFmpeg, Remotion, yt-dlp):
+  - **Installed FFmpeg 9.0.2 + Node 26** via Homebrew (~1 GB on the Mac; ~10 GB left).
+  - **Remotion not installed yet.** It's a per-project library, so it goes inside the rough-cut tool's folder on the SSD. Free license covers Ark (verified).
+  - **yt-dlp skipped on purpose:** it downloads other people's videos, which breaks YouTube's terms and our copyright rule.
+- Decided: **build the rough-cut tool after the first footage is on the SSD.** Accounts and filming come first.
+- Verified handle rules for YouTube/TikTok/Instagram (now in `CLAUDE.md`).
+- Fixed `ledger.csv`: removed the Claude Pro −$20 row (it's self-funded, per the file conventions). Balance is $0.
+
+**What worked**
+- Checking the machine before installing (old Homebrew, tight laptop disk) kept the install small.
+
+**Next step**
+- Lock the 4 `.archive` names, then create the 4 YouTube channels + matching TikTok/Instagram accounts (~1 h). Saturday: script and film the first 6.
