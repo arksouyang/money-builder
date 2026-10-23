@@ -85,3 +85,17 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 
 **Next step**
 - Saturday: script the first 6 Shorts with Claude, then film them. When Google's verification clears, make the anime + film channels (each TikTok needs its own email).
+
+## 2026-10-23 — Session 4 (Fri, ET, local session on the Mac)
+
+**What we did**
+- Wrote **Round 1 scripts for Psychology (P01–P05) and World History (H01–H05)** in `scripts/`, one file per Short: hook, 3 beats, ending, filming notes, sources.
+  - Psych mixes Ark's health psych notes (Lectures 6–8) with pop culture: *Inside Out* (matching hypothesis), *Cast Away* (loneliness), *The Bear* (Type A/hostility), the houseplant study (control), bad-grade explanatory style.
+  - History: Great Emu War, Napoleon's height, Dancing Plague of 1518, Boston Molasses Flood, Cleopatra/Moon landing timeline.
+- Round 2 backlog (5 ideas per channel) is in `scripts/README.md`.
+
+**What worked**
+- Using Ark's own lecture notes as the source keeps the psych facts checkable and gives every Short a citation.
+
+**Next step**
+- Read each script out loud once, then film all 10 in one sitting (same spot, same light). Anime + Movies/TV scripts once those channels' handles are picked.
