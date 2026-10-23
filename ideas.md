@@ -12,6 +12,7 @@ Last reviewed: 2026-10-23. Figures marked *(est.)* are my estimates, not verifie
 | Bilingual websites for small businesses (Claude Code) | parked | Needs outreach |
 | Freelance translation/subtitles on Fiverr | parked | Offered as a cash side-path; Ark chose to self-fund Claude Pro instead |
 | Digital templates (webtoon/Notion planners) | parked | Needs an audience first; could pair with the Anime & Webtoons channel later |
+| More short-form platforms (Facebook Reels, Snapchat Spotlight, etc.) | parked (2026-10-23) | Adds upload work, and their pay thresholds are far off. Revisit for the winning channel after Round 2, starting with Instagram's auto-share to Facebook |
 | Real estate (business or content topic) | **rejected** | Ark's call: license lapse, bad boss relationship; also excluded as a channel topic |
 
 ### Current primary: Shorts test (decided 2026-10-22)

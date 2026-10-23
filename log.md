@@ -70,3 +70,16 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 - Drew **4 profile pictures** in the style of Ark's Notion avatar (`brand/avatars/`): psych = thought bubble with a brain, history = bicorne hat, anime = sweat drop + anger vein, movies/TV = clapperboard. Each also has a `-color.png` version with its own background (psych lavender, history sage, anime pink, movies/TV yellow) so the accounts are easy to tell apart. Rebuild with `node brand/avatars/make.mjs`.
 - **Accounts progress (Fri night):** project Gmail created. **YouTube: 2 of 4 channels made (Psychology, World History).** Google asked for a video verification before more channels could be added. Ark submitted it Fri 10/23 (reply expected in ~24 h), then makes Anime & Webtoons and Movies & TV. Handles used: not recorded yet.
 - Not blocked: Saturday's scripting and filming can cover all 4 topics, since videos don't need the channels to exist yet.
+
+## 2026-10-23 — Session 3 (Fri night, ET, local session on the Mac)
+
+**What we did**
+- Recorded the handles and the account map in `CLAUDE.md`: `ark.psych.archive` (YouTube + TikTok) and `ark.history.archive` (YouTube + TikTok).
+- **TikTok rejected the Gmail `+` alias.** Ark used a second email for the history TikTok. The anime and film accounts will each need their own email too.
+- Ark asked about other platforms. Recommendation: **YouTube + TikTok + Reels only** for the test. Facebook Reels (via Instagram auto-share) and Snapchat Spotlight are parked until a winning channel is picked (`ideas.md`).
+
+**What worked**
+- Making accounts in small pieces kept the session moving even while Google's verification was pending.
+
+**Next step**
+- Instagram for psych + history (~15 min), then script the first 6 Shorts (Saturday).

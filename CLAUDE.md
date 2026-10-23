@@ -61,6 +61,15 @@
 
 ## Accounts and tools (confirmed 2026-10-22)
 - Ark will make **new `.archive` YouTube channels** for the 4 topics. All 4 can live under one Google account (Brand Accounts).
+- **Account map (2026-10-23).** Handle on every platform = the YouTube handle. **Never store passwords in this repo.**
+  | Channel | Handle | YouTube | TikTok | Instagram |
+  |---|---|---|---|---|
+  | Psychology | `ark.psych.archive` | taiwanesebeefudon@gmail.com | taiwanesebeefudon@gmail.com | not made |
+  | World History | `ark.history.archive` | taiwanesebeefudon@gmail.com | b33fnoodlesoup@gmail.com | not made |
+  | Anime & Webtoons | tbd | not made (waiting on Google verification) | not made | not made |
+  | Movies & TV | tbd | not made (waiting on Google verification) | not made | not made |
+- **TikTok rejected the Gmail `+` alias** (2026-10-23), so each TikTok account needs its own real email address.
+- **Platforms: YouTube + TikTok + Reels only** for the Shorts test (Claude's recommendation 2026-10-23, Ark to confirm). Extra platforms (Facebook Reels via Instagram auto-share, Snapchat Spotlight) wait until a winning channel is picked.
 - **New TikTok + Instagram accounts** matching each channel name. **Never Ark's personal accounts.** Each needs its own email or phone number.
 - Editing: **CapCut Pro on the Mac** (Ark's own subscription). CapCut has no official automation API (third-party draft-file tools are fragile and don't export on macOS), so Claude doesn't edit inside CapCut. Proposed split: a Claude Code **rough-cut tool** (silence removal, loudness, 9:16 framing, title ideas) → Ark polishes in CapCut (captions, hook text, music). Point CapCut's project/cache folders at the SSD.
 - **Rough-cut tool: yes** (decided 2026-10-23), build it **once Ark has first footage on the SSD**, not before. FFmpeg for the cut/loudness/9:16 pass; **Remotion** for animated captions, installed inside the tool's project folder on the SSD. Remotion's free license covers individuals and companies of up to 3 people (verified 2026-10-23; re-check at install, since v5.0 changes the license).
@@ -69,7 +78,7 @@
 - Handle rules (verified 2026-10-23; TikTok/Instagram from third-party sources): to work on all 3 platforms, use **letters, numbers, `.` and `_` only, no hyphens, no `.` at the start or end, no `..`, max 24 chars** (TikTok's limit is the tightest).
 
 ## Open questions to ask Ark
-- Confirm the 4-channel topic mapping and the exact `.archive` names.
+- Handles for the Anime & Webtoons and Movies & TV channels.
 - Credit card exact 0% end date + post-intro APR.
 
 ## Repo, sessions, and where work happens
