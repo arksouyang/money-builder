@@ -9,6 +9,8 @@ One file per Short, grouped by channel. Round 1 needs 5 per channel.
 | `anime-webtoons/` | not made yet | 0 |
 | `movies-tv/` | not made yet | 0 |
 
+**Read them in [`all-scripts.pdf`](all-scripts.pdf)** (one script per page). Rebuild after any change: `node scripts/make-pdf.mjs`.
+
 **Every script:** hook (first 3 s, start mid-thought) → 3 beats → ending. ~140–150 words ≈ 45–55 s spoken. Read it out loud once before filming and cut any line you trip on. Your own words beat mine on camera.
 
 **Rules:** talk to camera, no movie/show clips or stills (copyright, see `CLAUDE.md`). Put the sources in the description or a pinned comment. Psych and history channels live or die on being right.

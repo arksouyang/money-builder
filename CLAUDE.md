@@ -94,4 +94,5 @@
 - `content-tracker.csv`: one row per Short. Fill the 7-day numbers one week after posting.
 - `ideas.md`: every idea with status `active` / `parked` / `rejected` and the reason.
 - `log.md`: newest entry at the bottom, headed `## YYYY-MM-DD — Session N`.
+- `scripts/<channel>/*.md`: one Short per file (the source). **Ark reads scripts as PDF, never .md** (decided 2026-10-23). After writing or editing any script, run `node scripts/make-pdf.mjs` (needs Google Chrome, so local Mac sessions only) to rebuild `scripts/all-scripts.pdf`, and send Ark the PDF. A cloud session can't build it, so it tells Ark to rebuild it locally.
 - `GOALS.md`: one milestone marked **ACTIVE** with a text progress bar.
