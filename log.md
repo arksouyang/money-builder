@@ -63,3 +63,8 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 
 **Next step**
 - Lock the 4 `.archive` names, then create the 4 YouTube channels + matching TikTok/Instagram accounts (~1 h). Saturday: script and film the first 6.
+
+**Update (Fri): channel avatars + accounts plan**
+- Account plan: **one new project Gmail** for everything. YouTube = 4 Brand Account channels under it. Instagram = extra accounts made from inside the first one. TikTok = try Gmail `+` aliases, and make extra Gmails only if TikTok rejects them.
+- Ark picked handles in the `.archive` style (4 example sets given; the final set isn't recorded yet).
+- Drew **4 profile pictures** in the style of Ark's Notion avatar (`brand/avatars/`): psych = thought bubble with a brain, history = bicorne hat, anime = sweat drop + anger vein, movies/TV = clapperboard. Rebuild with `node brand/avatars/make.mjs`. v1, waiting on Ark's feedback.

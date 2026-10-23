@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 1932 1932">
+  <defs>
+    <filter id="ink" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="grain"/>
+      <feDisplacementMap in="SourceGraphic" in2="grain" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <rect width="1932" height="1932" fill="#fff"/>
+  <g filter="url(#ink)">
+    <g transform="translate(971 956) scale(1.15) translate(-966 -966)">
+  <path d="M280 952 L1505 938" stroke="#0d1010" stroke-width="20" fill="none"/>
+  <path d="M630 945 C625 1150 680 1350 820 1460 C900 1522 1020 1540 1110 1490
+           C1210 1430 1280 1320 1305 1205 C1360 1190 1440 1140 1440 1060
+           C1440 1000 1400 975 1375 985 L1300 940 L965 640 Z" fill="#fff"/>
+  <g fill="#0d1010">
+    <path d="M640 945 C560 962 505 900 512 800 C520 660 640 540 820 522 C900 515 950 530 968 560
+             C975 600 965 630 955 650 C900 760 800 860 640 945 Z"/>
+    <path d="M965 640 C950 560 980 470 1060 425 C1180 380 1330 440 1420 540 C1490 620 1515 780 1495 870
+             C1480 920 1400 945 1300 940 C1180 900 1050 790 965 640 Z"/>
+    <ellipse cx="912" cy="462" rx="46" ry="31" transform="rotate(25 912 462)"/>
+  </g>
+  <g stroke="#0d1010" stroke-width="21" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M630 945 C625 1150 680 1350 820 1460 C900 1522 1020 1540 1110 1490 C1210 1430 1280 1320 1305 1205"/>
+    <path d="M1305 1205 C1360 1190 1440 1140 1440 1060 C1440 1000 1400 975 1375 985"/>
+    <path d="M578 990 C520 1010 500 1090 545 1150 C565 1175 585 1190 602 1197"/>
+    <path d="M930 1008 C935 1060 925 1110 905 1150 C885 1195 895 1225 935 1240"/>
+    <path d="M878 1310 C940 1290 1020 1258 1075 1262 C1105 1265 1110 1300 1100 1330
+             C1085 1370 1020 1390 960 1395 C910 1398 870 1390 864 1355 C860 1330 862 1315 878 1310 Z"/>
+    <path d="M925 1302 L928 1390 M975 1288 L1000 1386 M1030 1274 L1060 1350" stroke-width="17"/>
+    <path d="M738 1050 C760 1032 800 1026 840 1030 C862 1032 880 1036 892 1040" stroke-width="17"/>
+    <path d="M1022 1042 C1060 1030 1110 1026 1172 1046" stroke-width="17"/>
+    <path d="M765 912 C820 910 880 916 902 928 C910 933 912 940 910 946" stroke-width="27"/>
+    <path d="M972 938 C1020 924 1080 914 1132 918" stroke-width="27"/>
+  </g>
+  <path d="M790 1040 C790 1066 802 1082 813 1082 C826 1082 836 1066 836 1040 Z" fill="#0d1010"/>
+  <path d="M1078 1036 C1078 1064 1090 1080 1101 1080 C1114 1080 1124 1064 1124 1036 Z" fill="#0d1010"/>
+  <circle cx="820" cy="1052" r="8" fill="#fff"/>
+  <circle cx="1108" cy="1050" r="8" fill="#fff"/>
+  <path d="M262 955 L398 896 C381 918 371 935 371 952 C371 970 380 990 390 1008 Z" fill="#0d1010"/>
+  <path d="M1498 938 L1528 872 L1662 860 L1624 936 L1656 1016 L1518 1004 Z" fill="#0d1010"/>
+      <path d="M420 560 C460 640 512 690 512 755 C512 800 477 830 437 830
+               C397 830 362 800 362 755 C362 690 397 640 420 560 Z"
+            fill="#fff" stroke="#0d1010" stroke-width="20" stroke-linejoin="round"/>
+      <path d="M405 705 C400 730 402 755 415 775" stroke="#0d1010" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <g stroke="#fff" stroke-width="26" fill="none" stroke-linecap="round">
+        <path d="M1170 560 C1195 590 1225 595 1255 570"/>
+        <path d="M1300 550 C1270 575 1265 605 1290 630"/>
+        <path d="M1305 675 C1280 650 1250 645 1220 670"/>
+        <path d="M1175 685 C1205 660 1210 630 1185 605"/>
+      </g></g>
+  </g>
+</svg>
