@@ -16,7 +16,13 @@
 - Dad is paying spring tuition. The hold covers **only the unpaid fall balance**; summer ($2,000) isn't part of it, but Ark wants both paid.
 - Credit card 0% intro ends roughly 4 months out, so **~early March 2027** (unconfirmed; check the statement).
 - **Table tennis is out of this project.** Secondary path is now *none*; the Tier 0 fallback is a one-off community translation job instead. The plan below was updated.
-- Ark will create an empty private GitHub repo named `money-builder` for these files.
+- Files pushed to private repo `arksouyang/money-builder`.
+
+**Update 2: tuition check done early**
+- Hold amount: **$3,800.48** (about $800 more than first thought).
+- Registration slot: **Mon Nov 9, 9:00 AM** (confirmed).
+- Backup schedule: already done; Ark keeps it private.
+- Saturday's tuition prep block is now free → **moved Tuesday's pipeline task up to Saturday.**
 
 ---
 
@@ -26,10 +32,10 @@ Goal: **$20 of real income in `ledger.csv`.** About 10 hrs/week. Blocks fit arou
 **Week 1: set up and ask**
 | Day | Time | Task |
 |---|---|---|
-| Sat 10/24 | 1.5 h | **Tuition triage prep.** Log into my.rutgers.edu: confirm the exact hold amount and your WebReg time slot. Draft a spring course list with backups. Write down questions for Monday. |
+| Sat 10/24 | 1.5 h | ~~Tuition triage prep~~ ✅ done Fri. **Instead:** Claude Code session: get speech-to-text working on one past sermon from your church's YouTube/recordings. |
 | Sun 10/25 | 1 h (at church) | Ask your pastor/leader two things: (1) "Do you know churches that post Mandarin sermons online and would want English subtitles?" (2) "Could you introduce me to 2–3 of them?" Ask permission to use one past translation of yours as a portfolio sample. Also mention you take small paid translation jobs (letters, flyers, event materials). That's your fallback pipeline. |
-| Mon 10/26 | 30 min + 1 h | **Call Rutgers** (script below). Then a Claude Code session: get transcription working on one past sermon recording. |
-| Tue 10/27 | 2 h | Claude Code: translation step with a theology glossary → SRT export. Output: **a 5-minute subtitled sample clip.** |
+| Mon 10/26 | 30 min + 1 h | **Call Rutgers** (script below). Then a Claude Code session: translation step + glossary. |
+| Tue 10/27 | 2 h | Claude Code: SRT export + polish. Output: **a 5-minute subtitled sample clip.** |
 | Wed 10/28 | 1 h (coaching night) | Write the one-page offer + pricing ($40/sermon, $140/mo for 4, est.). With Claude, build a list of 15 Chinese-language churches in NJ/NY that post sermons without English subtitles. |
 | Thu 10/29 | 1.5 h | Send 5 messages: warm intros first, then the best 2–3 from the list. Each includes the 5-min sample link. |
 | Fri 10/30 | 30 min | Follow up on replies. Log in `log.md`. |
@@ -49,7 +55,7 @@ Goal: **$20 of real income in `ledger.csv`.** About 10 hrs/week. Blocks fit arou
 ---
 
 ### Rutgers call script (Mon 10/26): Student Accounting + Financial Aid / One Stop
-1. "I have a balance hold blocking spring registration. What's the exact amount that needs to clear by my registration time?"
+1. "I have a $3,800.48 balance hold, and my registration slot is Nov 9 at 9 AM. Does the full amount have to clear, or can a partial payment lift the hold?"
 2. "Is there any payment arrangement, partial payment, or late payment plan that would lift the hold before my registration time?"
 3. Financial Aid: "Can I request a special-circumstances review for additional aid this year? Am I eligible for the Scarlet Guarantee or any grants I haven't received?"
 4. "Is there remaining federal aid I'm eligible for this year?" (This one is just information. Whether to take a loan is your decision, separate from this project.)
@@ -58,4 +64,4 @@ Goal: **$20 of real income in `ledger.csv`.** About 10 hrs/week. Blocks fit arou
 
 Write the answers here in the log.
 
-**Next step:** Sat 10/24, tuition triage prep (1.5 h). Then Sunday's church conversation.
+**Next step:** Sat 10/24, Claude Code session to start the subtitle pipeline (speech-to-text on one past sermon). Then Sunday's church conversation, then Monday's Rutgers calls.

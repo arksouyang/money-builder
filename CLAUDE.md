@@ -38,9 +38,10 @@
 - **PARKED: YouTube** (unlock: Tier 1 covered 2 months in a row), **dropshipping** (unlock: a profit-funded, capped test budget), **clothing brand** (only as merch for an audience that already exists).
 
 ## Urgent, off-ledger: Fall tuition registration hold
-- The unpaid fall balance (~$3,000) blocks Spring 2027 registration. The unpaid summer balance ($2,000) is **not** part of the hold. Rutgers–New Brunswick registrar lists Spring 2027 registration opening **Mon Nov 9, 2026** (verify the exact time slot in WebReg).
+- The fall hold is **$3,800.48** (confirmed by Ark 2026-10-23; higher than the ~$3,000 first estimate). It blocks Spring 2027 registration. The unpaid summer balance ($2,000) is **not** part of the hold. Ark's registration slot is **Mon Nov 9, 2026, 9:00 AM** (confirmed in WebReg).
+- Ark already has a backup course schedule and prefers to keep it private. Don't ask for it.
 - Ark's dad is paying Spring 2027 tuition.
-- The side hustle **cannot** produce $3,000 by Nov 9. This is handled through Rutgers offices and family, not project milestones. Track progress in `log.md`.
+- The side hustle **cannot** produce $3,800 by Nov 9. This is handled through Rutgers offices and family, not project milestones. Track progress in `log.md`.
 
 ## Known debt details
 - Credit card: ~$1,000 balance. 0% intro ends **~early March 2027 (Ark's estimate, unconfirmed)**. Post-intro APR unknown. Pay at least the minimum every month.
@@ -49,7 +50,9 @@
 ## Open questions to ask Ark
 - Which Rutgers campus/school? (Assumed New Brunswick.)
 - Credit card: exact 0% end date and post-intro APR (printed on the statement or in the card app).
-- GitHub username (for pushing this folder to the private `money-builder` repo).
+
+## Repo
+- Pushed to private GitHub repo `arksouyang/money-builder` (branch `main`). Commit and push at the end of every session so nothing is lost when the cloud container is reclaimed.
 
 ## File conventions
 - `ledger.csv`: **project money only.** Columns: `date,source,description,income,expense,running_balance`. Dates as YYYY-MM-DD. `running_balance` = previous balance + income − expense. When project profit pays a debt, log it as an expense with source `Debt: <name>`.
