@@ -1,0 +1,88 @@
+# Ideas: evaluations & status
+
+Last reviewed: 2026-10-23. Figures marked *(est.)* are my estimates, not verified data. Platform facts were checked by web search on 2026-10-23 (sources at the bottom). Re-verify before relying on them later.
+
+| Idea | Status | One-line reason |
+|---|---|---|
+| Bilingual sermon subtitles (Claude Code pipeline) | **active: primary** | Uses 3 of your skills at once, $0 to start, recurring revenue, no face needed |
+| Table tennis private lessons | **rejected (out of scope)** | Ark's call 2026-10-23: coaching stays a separate thing, not part of this project |
+| Faceless YouTube | **parked** | Realistic income is 12–24+ months out; worst fit for "I quit without results" |
+| AI dropshipping | **parked** | Needs ad money you don't have; violates the $0 rule |
+| Clothing brand | **rejected as standalone** / parked as future merch | No audience to sell to; thin print-on-demand margins |
+| Bilingual websites for small businesses (Claude Code) | parked: phase 2 | Good upsell once the subtitle service has clients and testimonials |
+| Freelance translation on Fiverr/Upwork | parked: backup channel | 20% Fiverr fee and slow start for new sellers; warm network is faster |
+| Digital templates (webtoon/Notion planners) | parked | Slow to first dollar without an audience |
+| Real estate | **rejected** | Your call: license lapse, bad boss relationship |
+
+---
+
+## Your three ideas
+
+### 1. Faceless YouTube channel: PARKED
+- **Startup cost:** $0 (free editors, Claude for scripts).
+- **Time to first dollar:** ad revenue realistically **12–24+ months** *(est.)*. YouTube confirmed that from **Feb 1, 2027**, new Partner Program applicants need **1,000 subs + 8,000 watch hours in 12 months, or 20M Shorts views in 90 days** (doubled from 4,000 / 10M). A fresh channel won't qualify before that date, so the new bar applies to you. The fan-funding tier (500 subs + 3,000 hrs or 3M Shorts views) is unchanged. Affiliate links can earn earlier, but only once there's traffic.
+- **Time/week:** 6–10 hrs for one decent video a week. That's your whole budget.
+- **Earnings *(est.)*:** month 1: $0 · month 6: $0–50 · year 1: $0–500 for most new channels. Outliers exist, but don't plan on being one.
+- **Risks:** YouTube's "inauthentic content" policy targets mass-produced, templated, low-effort AI videos and is enforced at the channel level. Faceless is allowed, but "faceless AI slop" is exactly what's being demonetized. Four channels split your effort four ways. Biggest risk: months of zero results, which is your stated quitting trigger.
+- **Verdict:** a good long-term dream and a bad Tier 0 tool. Since you're under the 8,000-hour rule either way, **starting later costs you almost nothing.**
+- **Unlock condition:** Tier 1 ($140/mo total) covered **2 months in a row**. Then pick ONE channel, cap it at 3 hrs/week, and judge it by videos shipped, not money.
+
+### 2. AI dropshipping: PARKED
+- **Startup cost:** not $0. Shopify Basic is **$39/mo** ($29/mo billed annually), plus 2.9% + 30¢ per card payment. A low-cost intro promo exists, but its exact terms vary by source. On top of that come a domain, apps, test orders, and paid ads (**$300–1,000+ to find one working product** *(est.)*). Free organic TikTok traffic is possible but slow and unpredictable.
+- **Time to first dollar:** 1–3 months, often net negative *(est.)*.
+- **Time/week:** 10+ hrs (product research, creatives, customer service, refunds).
+- **Earnings *(est.)*:** month 1: −$50 to +$50 · month 6: −$500 to +$500 · year 1: most beginners end at a loss.
+- **Risks:** ad spend burned before finding a winner; long shipping times leading to refunds and chargebacks; payment-processor holds; you're legally the seller. The $0 version, TikTok Shop affiliate, needs **1,000 followers to apply** (5,000 for full access per most sources), so it's an audience problem again.
+- **Verdict:** wrong fit for $0 capital. **Unlock condition:** the primary path produces enough profit for a *pre-capped* test budget you can afford to lose entirely (e.g. $200), after Tier 2b.
+
+### 3. Clothing brand: REJECTED (standalone) / PARKED (as merch)
+- **Startup cost:** $0 with print-on-demand (Printify/Printful + Etsy). Etsy charges **$0.20 per listing + 6.5% transaction fee + payment processing**, roughly 10%+ in total.
+- **Time to first dollar:** weeks to months; first sales usually come from friends *(est.)*.
+- **Time/week:** 4–8 hrs (designs, listings, promotion).
+- **Earnings *(est.)*:** ~$5–10 margin per shirt · month 1: $0–20 · month 6: $0–200 · year 1: $0–1,000.
+- **Risks:** extremely saturated, and a "brand" with no audience is just a shirt. Margins are too thin to pay for ads.
+- **Verdict:** merch works when people already love *something* (your webtoon IP, a channel). Revisit once one of those has fans.
+
+---
+
+## My ideas
+
+### A. Bilingual sermon subtitles: ACTIVE (PRIMARY)
+**What:** Chinese-language churches post Mandarin sermons on YouTube or livestream. Their English-dominant second-generation members and visitors often can't follow. You deliver English subtitle files (SRT) and/or translated transcripts each week.
+**Why it fits you:** you already do this for free, so the skill is proven. It uses Claude Code (real build experience for your portfolio), needs no face, and the church network is a warm sales channel. Churches post every week, so one client means recurring revenue.
+- **Pipeline (built with Claude Code):** open-source speech-to-text running free on your Mac/PC → Claude translation with a theology glossary (consistent Bible book and term names) → **your human review** → SRT export.
+- **Startup cost:** $0 (free open-source transcription + your existing Claude Pro).
+- **Pricing to test *(est., validate with real churches)*:** $40 per sermon (≤45 min, 48-hr turnaround), or a monthly 4-sermon plan at $140. A free 5-minute sample, never a free full sermon.
+- **Time to first dollar:** 1–3 weeks via warm introductions *(est.)*.
+- **Time/week:** ~3 hrs building in week 1, then ~1–1.5 hrs per sermon once the pipeline works *(est.)*.
+- **Earnings *(est.)*:** month 1: $0–120 · month 6: $150–600/mo (2–4 churches) · year 1: $2,000–6,000 total *if* clients stay.
+- **Risks:** churches have tight budgets and may expect volunteer work; quality slips on theological terms if you skip the review; transcription accuracy varies with audio quality; it's a small niche, so growth means expanding to Taiwanese/Chinese community orgs, schools, and businesses (bilingual websites = phase 2).
+- **Boundaries:** keep your own church's volunteer work volunteer, and ask them for *referrals*, not payment. Avoid certified legal/immigration translations for now (liability).
+
+### B. Table tennis private lessons: REJECTED (out of scope, Ark's choice 2026-10-23)
+_Kept for reference. Coaching continues outside this project, and its income isn't counted in the ledger. With it removed, there's no secondary path for now (revisit after Tier 0)._
+- **Startup cost:** $0, possibly table fees *(ask: do you have table access outside the club?)*.
+- **Market reference:** NJ listings on one marketplace (Wyzant) range ~$50–$187/hr. Use your previous rate as your baseline.
+- **Time to first dollar:** days. One lesson likely covers Tier 0.
+- **Time/week:** 2–3 hrs, ideally next to your Wed/Fri coaching evenings.
+- **Earnings *(est.)*:** month 1: $50–300 · month 6: $200–600/mo · year 1: $2,000–5,000.
+- **Risks:** caps at your hours (no scaling); club rules on private students; schedule conflicts around exams.
+- **Role:** steady cash and the Tier 0 fallback. It's not the "business," but it funds the business.
+
+### C–E. Parked for later
+- **C. Bilingual websites/apps for Chinese- and Taiwanese-owned small businesses (Claude Code):** $150–500/project *(est.)*. Phase 2, sold to the same community once you have testimonials.
+- **D. Fiverr/Upwork translation gig:** Fiverr takes a **flat 20%** of every order. Upwork's freelancer fee is **variable, 0–15%** per contract. Useful as a passive, anonymous backup listing later; slow for brand-new sellers.
+- **E. Digital templates for webtoon creators:** fits jadeNote, but needs an audience first. Pairs with YouTube later.
+
+---
+
+## Sources (checked 2026-10-23)
+- YouTube 2027 YPP change: [YouTube Help: Changes to YPP](https://support.google.com/youtube/answer/12843009?hl=en), [Forbes](https://www.forbes.com/sites/gabrielalinzainescu/2026/08/11/youtube-doubles-the-monetization-bar-for-new-creators/), [vidIQ](https://vidiq.com/blog/post/youtube-partner-program-changes-2027/)
+- Current YPP tiers: [AIR Media-Tech](https://air.io/en/monetization/youtube-partner-program-requirements-2026-the-complete-guide)
+- Inauthentic content policy: [Gulf News](https://gulfnews.com/technology/youtube-updates-monetisation-policies-ai-and-repetitive-content-ban-begins-july-15-1.500192660), [Plagiarism Today](https://www.plagiarismtoday.com/2025/07/08/youtube-targets-inauthentic-content/)
+- Shopify: [NerdWallet](https://www.nerdwallet.com/article/small-business/shopify-pricing), [Website Builder Expert](https://www.websitebuilderexpert.com/ecommerce-website-builders/shopify/shopify-pricing-pp/)
+- TikTok Shop affiliate: [Neal Schaffer](https://nealschaffer.com/tiktok-shop-affiliate-program/), [Advertise Purple](https://www.advertisepurple.com/understanding-tiktok-shop-affiliate-program-requirements/)
+- Etsy fees: [Gelato](https://www.gelato.com/blog/etsy-fees), [Printful](https://printful.com/blog/how-much-does-etsy-take-per-sale)
+- Fiverr/Upwork fees: [Vaultleap](https://vaultleap.com/blog/fiverr-fees-explained-2026), [goLance](https://golance.com/blogs/upwork-fees-explained-2026)
+- Table tennis rates: [Wyzant NJ](https://www.wyzant.com/New_Jersey_table_tennis_lessons.aspx)
+- Translation rates: no current survey found; self-reported [ProZ](https://www.proz.com/profile/24940) profiles vary widely (rates often per *character* for Chinese).
