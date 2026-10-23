@@ -67,4 +67,4 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 **Update (Fri): channel avatars + accounts plan**
 - Account plan: **one new project Gmail** for everything. YouTube = 4 Brand Account channels under it. Instagram = extra accounts made from inside the first one. TikTok = try Gmail `+` aliases, and make extra Gmails only if TikTok rejects them.
 - Ark picked handles in the `.archive` style (4 example sets given; the final set isn't recorded yet).
-- Drew **4 profile pictures** in the style of Ark's Notion avatar (`brand/avatars/`): psych = thought bubble with a brain, history = bicorne hat, anime = sweat drop + anger vein, movies/TV = clapperboard. Rebuild with `node brand/avatars/make.mjs`. v1, waiting on Ark's feedback.
+- Drew **4 profile pictures** in the style of Ark's Notion avatar (`brand/avatars/`): psych = thought bubble with a brain, history = bicorne hat, anime = sweat drop + anger vein, movies/TV = clapperboard. Each also has a `-color.png` version with its own background (psych lavender, history sage, anime pink, movies/TV yellow) so the accounts are easy to tell apart. Rebuild with `node brand/avatars/make.mjs`.

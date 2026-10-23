@@ -49,8 +49,11 @@ const hair = `
 
 // Topic props, drawn in the character's own coordinates so they sit on the head.
 // `scale`/`dy` shrink and shift the whole drawing so it fits a circle crop.
+// `color` is the channel's background for the *-color.png version; "BG" in a prop
+// marks a gap stroke that should match the background.
 const variants = {
   psych: {
+    color: "#cbb9f2",
     scale: 0.9, dx: -114, dy: 157,
     front: `
       <g stroke="${INK}" stroke-width="20" fill="#fff" stroke-linecap="round" stroke-linejoin="round">
@@ -70,16 +73,18 @@ const variants = {
       </g>`,
   },
   history: {
+    color: "#b5d3a5",
     scale: 1.1, dx: 4, dy: 103,
     front: `
       <path d="M360 650 C500 560 640 240 966 205 C1292 240 1432 560 1572 650
-               C1300 535 632 535 360 650 Z" fill="${INK}" stroke="#fff" stroke-width="18" stroke-linejoin="round"/>
+               C1300 535 632 535 360 650 Z" fill="${INK}" stroke="BG" stroke-width="18" stroke-linejoin="round"/>
       <path d="M470 600 C700 520 1232 520 1462 600" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round"/>
       <circle cx="966" cy="470" r="58" fill="#fff"/>
       <circle cx="966" cy="470" r="34" fill="${INK}"/>
       <circle cx="966" cy="470" r="13" fill="#fff"/>`,
   },
   anime: {
+    color: "#f6b3c8",
     scale: 1.15, dx: 5, dy: -10,
     eyeShine: true,
     front: `
@@ -95,10 +100,11 @@ const variants = {
       </g>`,
   },
   screen: {
+    color: "#f4d060",
     scale: 1.0, dx: 4, dy: 218,
     front: `
       <g transform="rotate(-12 1000 470)">
-        <rect x="740" y="250" width="520" height="240" rx="20" fill="${INK}" stroke="#fff" stroke-width="18"/>
+        <rect x="740" y="250" width="520" height="240" rx="20" fill="${INK}" stroke="BG" stroke-width="18"/>
         <g stroke="#fff" stroke-width="13" stroke-linecap="round">
           <path d="M790 335 L1210 335 M790 410 L1210 410 M1000 335 L1000 450"/>
         </g>
@@ -116,7 +122,7 @@ const shine = `
   <circle cx="820" cy="1052" r="8" fill="#fff"/>
   <circle cx="1108" cy="1050" r="8" fill="#fff"/>`;
 
-function svg(v) {
+function svg(v, bg) {
   const c = 966;
   const t = `translate(${c + v.dx} ${c + v.dy}) scale(${v.scale}) translate(${-c} ${-c})`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 1932 1932">
@@ -126,20 +132,22 @@ function svg(v) {
       <feDisplacementMap in="SourceGraphic" in2="grain" scale="5" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
   </defs>
-  <rect width="1932" height="1932" fill="#fff"/>
+  <rect width="1932" height="1932" fill="${bg}"/>
   <g filter="url(#ink)">
-    <g transform="${t}">${arrowBehind}${faceFill}${hair}${faceLines}${v.eyeShine ? shine : ""}${arrowFront}${v.front}</g>
+    <g transform="${t}">${arrowBehind}${faceFill}${hair}${faceLines}${v.eyeShine ? shine : ""}${arrowFront}${v.front.replaceAll('"BG"', `"${bg}"`)}</g>
   </g>
 </svg>`;
 }
 
-for (const [name, v] of Object.entries(variants)) {
-  const svgPath = join(DIR, `${name}.svg`);
-  writeFileSync(svgPath, svg(v));
-  execFileSync(CHROME, [
-    "--headless=new", "--disable-gpu", "--hide-scrollbars",
-    `--screenshot=${join(DIR, `${name}.png`)}`, "--window-size=2000,2000",
-    `file://${svgPath}`,
-  ], { stdio: "ignore" });
-  console.log(`${name}.png`);
+for (const [topic, v] of Object.entries(variants)) {
+  for (const [name, bg] of [[topic, "#fff"], [`${topic}-color`, v.color]]) {
+    const svgPath = join(DIR, `${name}.svg`);
+    writeFileSync(svgPath, svg(v, bg));
+    execFileSync(CHROME, [
+      "--headless=new", "--disable-gpu", "--hide-scrollbars",
+      `--screenshot=${join(DIR, `${name}.png`)}`, "--window-size=2000,2000",
+      `file://${svgPath}`,
+    ], { stdio: "ignore" });
+    console.log(`${name}.png`);
+  }
 }
