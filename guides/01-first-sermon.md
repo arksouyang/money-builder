@@ -1,5 +1,7 @@
 # Guide 01: Your first Mandarin sermon → English subtitles
 
+> **PARKED (2026-10-22).** The church subtitle service is on hold: Ark doesn't want to cold-message strangers. **Step 1 (setup on the SSD) is still useful.** The same speech-to-text setup makes burned-in captions for Ark's own Shorts. See `guides/02-shorts-test.md`.
+
 **Goal:** a **5-minute subtitled sample** by Saturday night.
 **Where:** on your **Mac (M2)**, in a *local* Claude Code session, with everything stored on your **external SSD** (your laptop has only ~12 GB free).
 **Your role:** Claude Code installs and codes. You make decisions and **review the translation**. Your review is the product.

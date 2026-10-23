@@ -3,67 +3,42 @@
 ## 2026-10-22 — Session 1 (Thu evening, ET)
 
 **What we did**
-- Gathered context: ~10 hrs/week, YouTube channels fresh (0 subs), sermon translation volunteer, prefers anonymity, real estate dropped, Tier 1 subs non-negotiable.
-- Verified platform facts by web search. Key finding: **YouTube doubles its Partner Program entry bar on Feb 1, 2027** (8,000 watch hrs or 20M Shorts views).
-- Evaluated all ideas (see `ideas.md`). **Primary: bilingual sermon subtitles.** Parked YouTube and dropshipping with explicit unlock conditions.
-- Created `CLAUDE.md`, `GOALS.md`, `ledger.csv`, `ideas.md`, `log.md`, `.gitignore`, `guides/01-first-sermon.md`. Pushed to private repo `arksouyang/money-builder`.
-
-**Facts Ark confirmed**
-- **Fall hold: $3,800.48.** Partial payment does **not** lift it (known from past calls). Registration slot **Mon Nov 9, 9:00 AM**; Ark can register up to ~1 week late if needed. Backup schedule already done (kept private).
-- Summer $2,000 is not part of the hold. Dad is paying spring tuition.
-- Credit card 0% intro ends ~early March 2027 (unconfirmed).
-- **Table tennis is out of this project.** No secondary path for now. The Tier 0 fallback is one-off community translation jobs.
-- Availability this weekend: a little Thu night, some of Fri, most of Sat, a long session Sun.
-
-**Update (late Thu)**
-- Tuition: $3,800.48 is after all aid; no grants or emergency funds; parents would cover it but it's a heavy burden. **Monday Rutgers call cancelled** (nothing left to ask).
-- Ark **interprets live** (no written translations on file) and does **not** want own church involved in any way, or to interpret in person elsewhere. Sales now go only to other churches via direct outreach with personalized samples.
-- Verified: YouTube's terms forbid downloading without permission. The pipeline takes audio only from church websites/podcasts that offer downloads, or files clients send. Guide rewritten.
-- Mac M2, laptop ~12 GB free, SSD ~200–300 GB free → everything big on the SSD.
-- Honest risk: cold outreach replies less than warm intros, so Tier 0 by Nov 8 is less certain (roughly a coin flip, my estimate). The fallback (Fiverr / outside contacts) matters more now.
+- Gathered context and verified platform facts by web search. Key finding: **YouTube doubles its Partner Program entry bar on Feb 1, 2027** (8,000 watch hrs or 20M Shorts views).
+- Evaluated all ideas (see `ideas.md`). First pick was **bilingual sermon subtitles** (primary) + table tennis (secondary).
+- Ark's answers changed the plan step by step:
+  - Table tennis is out of the project.
+  - Fall hold is **$3,800.48** after all aid. No grants or emergency funds. Partial payment doesn't lift it. Registration Mon Nov 9, 9 AM; can go ~1 week late. Parents would cover it at real cost to them.
+  - Ark interprets **live**, doesn't want their own church involved, and doesn't want to interpret in person. Verified: YouTube's terms forbid downloading videos without permission.
+  - Without the church, the subtitle plan became cold-messaging strangers, which **felt bad**. Content is the real dream, and Ark is now **OK with face + voice**.
+- **New direction (end of session):** Shorts test across **4 YouTube channels** (Psychology, World History, Anime & Webtoons, Movies & TV), cross-posted to TikTok + Reels. Real estate excluded. Reassess after the test, then the winner goes longform.
+- **Ark self-funds Claude Pro** for now (no cash side-path).
+- Created and pushed: `CLAUDE.md`, `GOALS.md`, `ledger.csv`, `content-tracker.csv`, `ideas.md`, `log.md`, `.gitignore`, `guides/01-first-sermon.md` (parked except Step 1), `guides/02-shorts-test.md`.
 
 **What worked**
-- Being specific about the schedule made the plan realistic.
+- Honest check-in on *why* Ark wanted to switch. The subtitle plan would have failed on motivation, not on skill.
+
+**What didn't**
+- I built the first plan around a church network before knowing Ark wanted the church kept separate. Lesson: ask about boundaries earlier.
 
 **Open questions for Ark**
-1. Which community contacts *outside* your church are OK to approach?
-2. SSD format (local Claude Code will check).
-3. Credit card exact 0% end date + post-intro APR.
+1. Confirm the channel mapping. Reuse the four `.archive` channels, or make new ones?
+2. Which TikTok / Instagram accounts exist already?
+3. What did you edit videos with before? (Laptop space is tight, so prefer phone or SSD-based editing.)
+4. SSD format; credit card 0% end date.
 
 ---
 
-### Tier 0 sprint (revised for this weekend): Thu Oct 22 → Sun Nov 8
-Goal: **$20 of real income in `ledger.csv`.** Front-loaded because this weekend is free. Pipeline steps are in `guides/01-first-sermon.md`.
-
-**This weekend: build the sample**
+### Plan: this weekend → Round 1 (20 Shorts by Sun Nov 15)
 | Day | Time | Task |
 |---|---|---|
-| Thu 10/22 (tonight) | 15–60 min | Guide **Step 0**: pick a practice sermon from another church that offers downloadable audio. Optional: Step 1 if you have energy. |
-| Fri 10/23 | 45–60 min | Guide **Step 1** (if not done): clone repo onto the SSD; local Claude Code installs tools (big stuff on the SSD). |
-| Sat 10/24 | ~4 h (with breaks) | Guide **Steps 2–4**: transcribe → translate with glossary → your review → **5-min sample video + bilingual transcript**. |
-| Sun 10/25 | ~3 h | Guide **Step 5**: one-page offer + pricing; 15 target churches; outreach message draft. **Push to GitHub.** |
+| Thu 10/22 (tonight) | 0–15 min | Optional: jot 3 Short ideas per channel in your notes app. Then sleep. |
+| Fri 10/23 | ~1 h | **Accounts:** log into the 4 YouTube channels (or create new ones), rename/brand them to their topics, create matching TikTok + Instagram accounts. Same handle on every platform if possible. |
+| Sat 10/24 | ~3–4 h | **Script 6 with Claude** (cloud or local session) → **film all 6** in one sitting (same spot, window light). Start editing. |
+| Sun 10/25 | ~3 h | Finish editing. **Post the first Shorts** (at least 1 per channel). Log each one in `content-tracker.csv`. Commit + push. |
+| Weekdays after | ~1–1.5 h/day | Weekly rhythm from `guides/02-shorts-test.md`: ~6 Shorts/week, rotating channels. |
+| Sun 11/1 | 30 min | First check: fill in 7-day numbers for last weekend's Shorts. No judging yet, just recording. |
+| Sun 11/15 | — | **Round 1 target: 20 posted (5 per channel).** |
 
-**Week 1: ask**
-| Day | Time | Task |
-|---|---|---|
-| Mon 10/26 | 1.5 h | Make a personalized 5-min sample for target church #1 (only if it offers downloadable audio). Send the first 3 messages. |
-| Tue 10/27 | 1.5 h | Send 3–5 more messages. Full-sermon dry run if not done Saturday. |
-| Wed 10/28 | 1 h | Follow-ups. Refine the glossary from what you've learned. |
-| Thu 10/29 | 1.5 h | Follow-ups + 3 new messages. |
-| Fri 10/30 | 30 min | Log replies in `log.md`. |
-| Sat 10/31 | 1.5 h | Buffer / deliver anything requested. |
-| Sun 11/1 | 30 min | **⛳ Checkpoint (day 7):** do you have a *paid* commitment? If **no** → switch on the fallback: post a Fiverr gig and/or tell OK'd contacts outside your church you're taking one-off translation/subtitle jobs (flat $20–40 each, est.). |
+Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 1 sets up speech-to-text on the SSD, which gives you auto-captions for your Shorts.
 
-**Week 2: deliver and get paid**
-| Day | Time | Task |
-|---|---|---|
-| Mon 11/2 | 1.5 h | 5 more outreach messages + follow-ups. |
-| Tue 11/3 | 2 h | Deliver the first paid job (or a free 5-min sample for a warm lead: "full sermons are $40"). |
-| Wed 11/4 | 1 h | Invoice finished work via Venmo/Zelle/PayPal. |
-| Thu 11/5 | 1 h | Deliver/revise. **Log every dollar in `ledger.csv`.** |
-| Fri 11/6 | 30 min | Weekly review: what got replies, what didn't. |
-| Sat–Sun 11/7–8 | buffer | Catch up. Update `GOALS.md` if Tier 0 is hit 🎉 |
-
----
-
-**Next step:** tonight, guide Step 0 (pick a practice sermon). Then Step 1 in a *local* session on the Mac.
+**Next step:** Friday, set up the accounts (~1 h). Saturday, script and film your first 6.

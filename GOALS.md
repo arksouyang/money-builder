@@ -1,40 +1,49 @@
 # Goals
 
-## ▶ ACTIVE: Tier 0 · First win: cover Claude Pro ($20)
+## ▶ ACTIVE: Shorts Test, Round 1: 20 Shorts posted (5 per channel)
 
 ```
-[░░░░░░░░░░░░░░░░░░░░]  $0 / $20   (0%)
+[░░░░░░░░░░░░░░░░░░░░]  0 / 20 Shorts   (0%)
 ```
 
-**Target date:** Sun Nov 8, 2026 (end of the 2-week sprint)
-**Done when:** `ledger.csv` shows ≥ $20 of real income (balance ≥ $0).
-**How:** first paid sermon subtitle job. Fallback after Nov 1: one paid one-off translation job (Fiverr or community contacts outside your church).
+| Channel | Posted |
+|---|---|
+| Psychology | 0 / 5 |
+| World History | 0 / 5 |
+| Anime & Webtoons | 0 / 5 |
+| Movies & TV | 0 / 5 |
 
----
-
-### ⚠ Off-ledger deadline (not a project milestone)
-Fall tuition hold **$3,800.48** → your registration slot is **Mon Nov 9, 9:00 AM**. Handle this through Rutgers offices this week (see `log.md`). Project income won't cover it in time, and that's not a failure of the project.
+**Target date:** Sun Nov 15, 2026
+**Done when:** `content-tracker.csv` has 20 rows (5 per channel), each posted to YouTube Shorts (TikTok/Reels cross-posts count as a bonus).
+**Why this milestone:** money from content is months away, so *shipping* is the win you can see right now.
 
 ---
 
 <details>
-<summary>Later tiers (collapsed on purpose: focus on the active one)</summary>
+<summary>Later milestones (collapsed on purpose: focus on the active one)</summary>
 
+**Content path**
+| # | Milestone | Status |
+|---|---|---|
+| C1 | Shorts Round 1: 20 posted | **ACTIVE** |
+| C2 | Shorts Round 2: 40 posted (10 per channel) → reassess with the numbers, pick the winner(s) | next |
+| C3 | First longform video on the winning topic | |
+| C4 | First $ from content (affiliate, fan funding, sponsorship, or platform pay) | |
+
+**Money tiers**
 | Tier | Milestone | Amount | Status |
 |---|---|---|---|
-| 0 | Claude Pro | $20/mo | **ACTIVE** |
-| 1 | Other subscriptions | $120/mo | next |
-| 2a | Fall tuition (registration hold) | $3,800.48 | urgent, off-ledger first |
-| 2b | Credit card (pay off before 0% intro ends, ~early Mar 2027, unconfirmed) | $1,000 | pay at least the minimum every month |
-| 2c | Summer tuition (not part of the hold) | $2,000 | |
+| 0 | Claude Pro | $20/mo | **self-funded by Ark for now** (decided 2026-10-22). Project takes it over at C4. |
+| 1 | Other subscriptions | $120/mo | |
+| 2a | Fall tuition (registration hold) | $3,800.48 | off-ledger: family |
+| 2b | Credit card (before 0% intro ends, ~early Mar 2027, unconfirmed) | $1,000 | pay at least the minimum every month |
+| 2c | Summer tuition (no hold) | $2,000 | |
 | 2d | Friend loan | $2,000 | |
 | 2e | Sister loan | $7,000 | |
 | 3 | Claude upgrade + extra credits | +$240/mo | only when revenue justifies it |
 | 4 | iPhone / Mac / Yamaha R3 | $2k / $5k / $12k | rewards |
 
-Tier 2 order rationale: the hold blocks your degree, so it comes first. Then the credit card, before the 0% APR ends. Then summer tuition (no hold, but you want it cleared). The family loans have no deadline, so the smaller one goes first for a faster win.
-
-Honest note: paying both family loans ($9,000) in 6 months means ~$1,500/month on top of everything else. At 10 hrs/week that isn't realistic in year 1. 12–18 months is more likely, and we'll re-plan once real income data exists.
+Honest note: paying the family loans in 6 months isn't realistic at 10 hrs/week. We'll re-plan once there's real income data.
 
 </details>
 

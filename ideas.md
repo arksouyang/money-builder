@@ -4,21 +4,32 @@ Last reviewed: 2026-10-23. Figures marked *(est.)* are my estimates, not verifie
 
 | Idea | Status | One-line reason |
 |---|---|---|
-| Bilingual sermon subtitles (Claude Code pipeline) | **active: primary** | Uses 3 of your skills at once, $0 to start, recurring revenue, no face needed |
-| Table tennis private lessons | **rejected (out of scope)** | Ark's call 2026-10-23: coaching stays a separate thing, not part of this project |
-| Faceless YouTube | **parked** | Realistic income is 12–24+ months out; worst fit for "I quit without results" |
-| AI dropshipping | **parked** | Needs ad money you don't have; violates the $0 rule |
-| Clothing brand | **rejected as standalone** / parked as future merch | No audience to sell to; thin print-on-demand margins |
-| Bilingual websites for small businesses (Claude Code) | parked: phase 2 | Good upsell once the subtitle service has clients and testimonials |
-| Freelance translation on Fiverr/Upwork | parked: backup channel | 20% Fiverr fee and slow start for new sellers; warm network is faster |
-| Digital templates (webtoon/Notion planners) | parked | Slow to first dollar without an audience |
-| Real estate | **rejected** | Your call: license lapse, bad boss relationship |
+| **YouTube Shorts test: 4 channels, face + voice** (+ TikTok/Reels) | **active: primary** (2026-10-22) | Ark's dream; face/voice OK now, which beats faceless; Shorts are cheap experiments to find the winning topic |
+| Bilingual sermon subtitles (Claude Code pipeline) | parked | Became cold outreach to strangers once Ark's church was out, which Ark didn't want. Pipeline reused for captions |
+| Table tennis private lessons | **rejected (out of scope)** | Ark's call: coaching stays separate from this project |
+| AI dropshipping | **parked** | Needs ad money; $0 path is TikTok Shop affiliate once an account hits 1,000 followers |
+| Clothing brand | **rejected as standalone** / parked as future merch | No audience yet; thin print-on-demand margins |
+| Bilingual websites for small businesses (Claude Code) | parked | Needs outreach |
+| Freelance translation/subtitles on Fiverr | parked | Offered as a cash side-path; Ark chose to self-fund Claude Pro instead |
+| Digital templates (webtoon/Notion planners) | parked | Needs an audience first; could pair with the Anime & Webtoons channel later |
+| Real estate (business or content topic) | **rejected** | Ark's call: license lapse, bad boss relationship; also excluded as a channel topic |
+
+### Current primary: Shorts test (decided 2026-10-22)
+- **Channels:** Psychology · World History · Anime & Webtoons · Movies & TV (mapping to confirm).
+- **Plan:** Shorts only → 5 per channel (Round 1) → 10 per channel (Round 2) → reassess by the numbers → winner goes longform. Details in `guides/02-shorts-test.md`.
+- **Startup cost:** $0 (phone camera, free editors). Claude Pro self-funded by Ark.
+- **Time to first dollar:** months (est.). See the platform thresholds in `CLAUDE.md`.
+- **Honest risks:**
+  - 4 channels at ~10 hrs/week means ~2 Shorts per channel per week, so the test takes ~6 weeks and finals will slow it down.
+  - Copyright on anime/movie topics (talk to camera, minimal clips).
+  - Motivation dip if views are low early. That's why the active milestone counts Shorts *posted*, not views.
+- **Why it can work:** a real face and voice is the opposite of the faceless AI content YouTube is demonetizing. Psychology gives you credibility. Short-form tests are fast and free.
 
 ---
 
 ## Your three ideas
 
-### 1. Faceless YouTube channel: PARKED
+### 1. Faceless YouTube channel: superseded by the face + voice Shorts test (above). Original evaluation kept for reference:
 - **Startup cost:** $0 (free editors, Claude for scripts).
 - **Time to first dollar:** ad revenue realistically **12–24+ months** *(est.)*. YouTube confirmed that from **Feb 1, 2027**, new Partner Program applicants need **1,000 subs + 8,000 watch hours in 12 months, or 20M Shorts views in 90 days** (doubled from 4,000 / 10M). A fresh channel won't qualify before that date, so the new bar applies to you. The fan-funding tier (500 subs + 3,000 hrs or 3M Shorts views) is unchanged. Affiliate links can earn earlier, but only once there's traffic.
 - **Time/week:** 6–10 hrs for one decent video a week. That's your whole budget.
@@ -47,7 +58,7 @@ Last reviewed: 2026-10-23. Figures marked *(est.)* are my estimates, not verifie
 
 ## My ideas
 
-### A. Bilingual sermon subtitles: ACTIVE (PRIMARY)
+### A. Bilingual sermon subtitles: PARKED (2026-10-22: without Ark's church it meant cold outreach, which Ark didn't want)
 **What:** Chinese-language churches post Mandarin sermons on YouTube or livestream. Their English-dominant second-generation members and visitors often can't follow. You deliver English subtitle files (SRT) and/or translated transcripts each week.
 **Why it fits you:** you already interpret sermons live every week, so you know the language and the vocabulary. Subtitles are remote and written, so there's no in-person interpreting. It uses Claude Code (real build experience for your portfolio) and needs no face. Churches post every week, so one client means recurring revenue.
 **Sales channel (updated 2026-10-22):** your own church is out entirely. Outreach goes to other churches directly, using a personalized sample: 5 minutes of *their* sermon, subtitled. Cold outreach gets fewer replies than warm intros, so expect to send more messages.
