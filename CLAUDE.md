@@ -75,6 +75,7 @@
 - **Cloud session** (claude.ai/code or the Claude app → new session → repo `arksouyang/money-builder`): planning, scripts, ideas, reviewing numbers. Can't touch Ark's computer or SSD.
 - **Local session** (Mac Terminal: `cd "/Volumes/<SSD>/money-builder" && claude`): anything with video/audio files, e.g. auto-captions. Footage lives on the SSD in `work/` (git-ignored). **Never commit video/audio.**
 - To start any session, Ark types: **"Start session per CLAUDE.md."**
+- To move a cloud conversation to the Mac with its full history: from the repo folder on the SSD, run `claude --teleport <session-id>` (needs a clean git state, the branch pushed, and the same claude.ai login). The local copy is separate from then on. Run `/remote-control` locally to keep steering it from the phone.
 - **Time zone:** Ark is in New Jersey (US Eastern). Cloud containers run on UTC, so convert before writing dates.
 
 ## File conventions
