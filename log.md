@@ -99,3 +99,4 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 
 **Next step**
 - Read each script out loud once, then film all 10 in one sitting (same spot, same light). Anime + Movies/TV scripts once those channels' handles are picked.
+- **Web-checked the 5 history scripts.** Everything held up except three lines, now fixed: H01's Meredith quote (now uses the commonly cited wording), H01's ending (the emu bounty scheme already existed in 1923 and continued, so it wasn't new), and H04's law line (the engineer sign-off rules started in Boston, not as a Massachusetts law).

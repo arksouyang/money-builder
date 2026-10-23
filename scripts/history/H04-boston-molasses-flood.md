@@ -20,10 +20,10 @@ A wave up to 25 feet tall rolls through the streets. It knocks buildings off the
 The company blamed anarchists. The court didn't buy it. The tank had never been properly tested, and it leaked so badly that the company painted it brown so the leaks wouldn't show.
 
 **ENDING**
-The disaster pushed Massachusetts to require engineers to sign off on structures like this. And locals said that on hot days, the North End smelled like molasses for decades.
+The disaster pushed Boston, and later other states, to require engineers to sign off on plans like this. And locals said that on hot days, the North End smelled like molasses for decades.
 
 ---
 
 **Filming notes:** keep the tone respectful in beat 2 (21 deaths). A jar of syrup or molasses as a prop works for the hook.
 
-**Sources:** Stephen Puleo, *Dark Tide: The Great Boston Molasses Flood of 1919* (2003); Massachusetts Historical Society; the 2016 Harvard fluid-dynamics analysis (Nicole Sharp & Jordan Kennedy) on why the cold made it deadlier.
+**Sources:** Stephen Puleo, *Dark Tide: The Great Boston Molasses Flood of 1919* (2003); Massachusetts Historical Society; the 2016 Harvard fluid-dynamics analysis (Nicole Sharp & Jordan Kennedy) on why the cold made it deadlier. Web-checked 2026-10-23: [Wikipedia](https://en.wikipedia.org/wiki/Great_Molasses_Flood), [Mass Moments](https://www.massmoments.org/moment-details.html?mid=19) (brown paint, anarchist claim, auditor Hugh Ogden ruled against the company in 1925), [Boston.gov](https://www.boston.gov/node/54641) (engineer sign-off rules). Wave height (8–25 ft) and speed (30–35 mph) vary by source; 25 ft / 35 mph are Puleo's figures.
