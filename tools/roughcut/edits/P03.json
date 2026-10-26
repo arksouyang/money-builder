@@ -1,6 +1,6 @@
 {
-  "source": "work/raw/the bear raw.mp4",
-  "out": "work/out/P03-the-bear.mp4",
+  "source": "raw vids/the bear raw.mp4",
+  "out": "draft edits/P03-the-bear.mp4",
   "hook": "The chairs gave it away",
   "keep": [
     [3.60, 9.96, 0],

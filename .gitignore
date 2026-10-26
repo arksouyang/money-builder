@@ -1,5 +1,8 @@
 # Media and working files: never commit (size + church content)
 work/
+raw vids/
+draft edits/
+final draft/
 *.mp3
 *.mp4
 *.m4a

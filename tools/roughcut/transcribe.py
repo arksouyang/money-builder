@@ -1,6 +1,6 @@
 r"""Transcribe raw takes with word-level timestamps.
 
-Usage: .venv\Scripts\python tools\roughcut\transcribe.py work\raw\*.mp4
+Usage: .venv\Scripts\python tools\roughcut\transcribe.py "raw vids\<name>.mp4" ...
 Writes work\transcripts\<name>.json (list of words with start/end in seconds).
 """
 import json

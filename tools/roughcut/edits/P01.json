@@ -1,6 +1,6 @@
 {
-  "source": "work/raw/inside out raw.mp4",
-  "out": "work/out/P01-inside-out.mp4",
+  "source": "raw vids/inside out raw.mp4",
+  "out": "draft edits/P01-inside-out.mp4",
   "hook": "Stop giving your friends advice",
   "keep": [
     [1.50, 4.60, 0],

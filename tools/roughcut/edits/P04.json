@@ -1,6 +1,6 @@
 {
-  "source": "work/raw/houseplant raw.mp4",
-  "out": "work/out/P04-houseplant.mp4",
+  "source": "raw vids/houseplant raw.mp4",
+  "out": "draft edits/P04-houseplant.mp4",
   "hook": "1 plant. Half the deaths.",
   "keep": [
     [1.92, 4.58, 0],

@@ -75,9 +75,9 @@
 - **New TikTok + Instagram accounts** matching each channel name. **Never Ark's personal accounts.** Each needs its own email or phone number.
 - Editing: **CapCut Pro on the Mac** (Ark's own subscription). CapCut has no official automation API (third-party draft-file tools are fragile and don't export on macOS), so Claude doesn't edit inside CapCut. Proposed split: a Claude Code **rough-cut tool** (silence removal, loudness, 9:16 framing, title ideas) → Ark polishes in CapCut (captions, hook text, music). Point CapCut's project/cache folders at the SSD.
 - **Editing tool: built 2026-10-25** in `tools/roughcut/` (Python + FFmpeg, on the Windows PC; replaces the Remotion plan). Ark wants Claude to do the full edit: cut repeated takes, snappy jump cuts, word-by-word captions checked against the script, stills. Steps:
-  1. Raw takes go in `work/raw/`. `transcribe.py` → word-timed transcripts in `work/transcripts/`; `show.py` prints them as timed lines.
+  1. Raw takes go in `raw vids/`. `transcribe.py` → word-timed transcripts in `work/transcripts/`; `show.py` prints them as timed lines.
   2. Claude writes `tools/roughcut/edits/<id>.json` by hand: which lines to keep (**the last full take of any repeated line**), caption fixes from the script, hook text, stills.
-  3. `render.py <edit>` → `work/out/<id>.mp4`: 1080×1920 30 fps, crop follows the face, alternating normal/punch-in framing per sentence, yellow current-word captions, hook text box for the first ~2.8 s, stills as a card over the upper half, loudness −14 LUFS. No music (Ark adds it in CapCut or the app if wanted).
+  3. `render.py <edit>` → `draft edits/<id>.mp4`: 1080×1920 30 fps, crop follows the face, alternating normal/punch-in framing per sentence, yellow current-word captions, hook text box for the first ~2.8 s, stills as a card over the upper half, loudness −14 LUFS. No music (Ark adds it in CapCut or the app if wanted).
 - **Filming tip:** Ark's takes so far are 1080p landscape, so the 9:16 crop is ~600 px wide and upscaled (soft). Film **vertical**, or 4K landscape, for sharper Shorts.
 - Installed on the Mac via Homebrew (2026-10-23): **FFmpeg 9.0.2, Node 26**.
 - **yt-dlp deliberately not installed:** it downloads other people's videos, which conflicts with YouTube's terms and the copyright rule above. Ark can download their own uploads from YouTube Studio.
@@ -90,7 +90,14 @@
 ## Repo, sessions, and where work happens
 - Source of truth: private GitHub repo `arksouyang/money-builder` (branch `main`). **Commit and push at the end of every session.** Cloud containers are wiped after inactivity.
 - **Cloud session** (claude.ai/code or the Claude app → new session → repo `arksouyang/money-builder`): planning, scripts, ideas, reviewing numbers. Can't touch Ark's computer or SSD.
-- **Local session** (Mac Terminal: `cd "/Volumes/arkDrive/money-builder" && claude`, or the Claude desktop app's Code tab on that folder): anything with video/audio files, e.g. auto-captions. Footage lives on the SSD in `work/` (git-ignored). **Never commit video/audio.**
+- **Local session** (Mac Terminal: `cd "/Volumes/arkDrive/money-builder" && claude`, or the Claude desktop app's Code tab on that folder; on the Windows PC the SSD is drive `F:`): anything with video/audio files, e.g. auto-captions. **Never commit video/audio.**
+- **Video folders (set by Ark 2026-10-26), all in the project folder on the SSD (`arkDrive/money-builder/`), all git-ignored:**
+  | Folder | What goes in it |
+  |---|---|
+  | `raw vids/` | Ark's raw takes, straight from the camera |
+  | `draft edits/` | Claude's edited versions (`render.py` output), for Ark to review |
+  | `final draft/` | Approved, ready-to-post versions (Ark's polish or an approved draft) |
+  Helper files stay in `work/` (git-ignored): `work/transcripts/`, `work/stills/`.
 - To start any session, Ark types: **"Start session per CLAUDE.md."**
 - To move a cloud conversation to the Mac with its full history: from the repo folder on the SSD, run `claude --teleport <session-id>` (needs a clean git state, the branch pushed, and the same claude.ai login). The local copy is separate from then on. Run `/remote-control` locally to keep steering it from the phone.
 - **Time zone:** Ark is in New Jersey (US Eastern). Cloud containers run on UTC, so convert before writing dates.

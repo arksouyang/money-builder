@@ -1,6 +1,6 @@
 {
-  "source": "work/raw/castaway raw.mp4",
-  "out": "work/out/P02-cast-away.mp4",
+  "source": "raw vids/castaway raw.mp4",
+  "out": "draft edits/P02-cast-away.mp4",
   "hook": "Wilson saved his life",
   "keep": [
     [1.96, 7.92, 0],
