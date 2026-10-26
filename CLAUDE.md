@@ -13,6 +13,7 @@
 - **Owns four fresh YouTube channels** under a `.archive` naming convention (0 subs).
 - **On camera: Ark is OK using face and voice** for YouTube (changed 2026-10-22; earlier preference was anonymous).
 - Has: bank account, PayPal, Venmo, Zelle (no Stripe).
+- **Windows PC (desktop, used from 2026-10-25):** Ryzen 5 3600, 32 GB RAM, no NVIDIA GPU. Repo at `F:\money-builder` (drive F: has ~1.8 TB free). Installed via winget 2026-10-25: **Git 2.56, FFmpeg 9.0.2, Python 3.12**. Python venv at `.venv/` (faster-whisper, OpenCV 4.x; OpenCV 5 dropped the face detector we use), Whisper model cache in `hf-cache/`. No Node yet, so `make-pdf.mjs` doesn't run here.
 - Machine: **Mac M2, laptop nearly full (~10 GB free of 228 GB, checked 2026-10-23)**. External SSD `arkDrive`: **exFAT, 2 TB, ~1.95 TB free** (symlinks work). exFAT doesn't journal, so always eject before unplugging. **Anything big (footage, project files, models) goes on the SSD.**
 - **Does not want to cold-message strangers** (the subtitle outreach plan felt bad for this reason). Don't build plans that depend on it.
 - **Ark's own church is not part of this project in any way.** No in-person interpreting for anyone.
@@ -42,6 +43,7 @@
   4. Movies & TV
 - **Test design:** Round 1 = 5 Shorts per channel (20 total). Round 2 = 10 per channel (40 total). Then **reassess with the numbers in `content-tracker.csv`**. The winning topic(s) move to longform; losers pause.
 - **Copyright:** for anime/webtoon/movie/TV topics, talk to camera with little or no copyrighted footage. YouTube allows reused content only with meaningful transformation, and copyright still applies.
+- **Stills (changed 2026-10-25, Ark's call):** short (1–3 s) **studio publicity stills** over Ark's commentary are OK; **no video clips, no movie audio**. Source: TMDB backdrops (studio publicity images), downloaded to `work/stills/` only after Ark approves each one. Stills in commentary are lower risk than clips, but fair use isn't guaranteed and Content ID doesn't check it.
 - **SECONDARY: none.** Ark chose to self-fund instead of a cash side-path.
 - **PARKED:** church subtitle service (cold outreach felt bad; the speech-to-text pipeline is reused for **auto-captions on Ark's own Shorts**), Fiverr subtitle gig, dropshipping (path: TikTok Shop affiliate once an account reaches 1,000 followers; own store only from profit), clothing brand (merch for an audience later).
 
@@ -72,7 +74,11 @@
 - **Platforms: YouTube + TikTok + Reels only** for the Shorts test (Claude's recommendation 2026-10-23, Ark to confirm). Extra platforms (Facebook Reels via Instagram auto-share, Snapchat Spotlight) wait until a winning channel is picked.
 - **New TikTok + Instagram accounts** matching each channel name. **Never Ark's personal accounts.** Each needs its own email or phone number.
 - Editing: **CapCut Pro on the Mac** (Ark's own subscription). CapCut has no official automation API (third-party draft-file tools are fragile and don't export on macOS), so Claude doesn't edit inside CapCut. Proposed split: a Claude Code **rough-cut tool** (silence removal, loudness, 9:16 framing, title ideas) → Ark polishes in CapCut (captions, hook text, music). Point CapCut's project/cache folders at the SSD.
-- **Rough-cut tool: yes** (decided 2026-10-23), build it **once Ark has first footage on the SSD**, not before. FFmpeg for the cut/loudness/9:16 pass; **Remotion** for animated captions, installed inside the tool's project folder on the SSD. Remotion's free license covers individuals and companies of up to 3 people (verified 2026-10-23; re-check at install, since v5.0 changes the license).
+- **Editing tool: built 2026-10-25** in `tools/roughcut/` (Python + FFmpeg, on the Windows PC; replaces the Remotion plan). Ark wants Claude to do the full edit: cut repeated takes, snappy jump cuts, word-by-word captions checked against the script, stills. Steps:
+  1. Raw takes go in `work/raw/`. `transcribe.py` → word-timed transcripts in `work/transcripts/`; `show.py` prints them as timed lines.
+  2. Claude writes `tools/roughcut/edits/<id>.json` by hand: which lines to keep (**the last full take of any repeated line**), caption fixes from the script, hook text, stills.
+  3. `render.py <edit>` → `work/out/<id>.mp4`: 1080×1920 30 fps, crop follows the face, alternating normal/punch-in framing per sentence, yellow current-word captions, hook text box for the first ~2.8 s, stills as a card over the upper half, loudness −14 LUFS. No music (Ark adds it in CapCut or the app if wanted).
+- **Filming tip:** Ark's takes so far are 1080p landscape, so the 9:16 crop is ~600 px wide and upscaled (soft). Film **vertical**, or 4K landscape, for sharper Shorts.
 - Installed on the Mac via Homebrew (2026-10-23): **FFmpeg 9.0.2, Node 26**.
 - **yt-dlp deliberately not installed:** it downloads other people's videos, which conflicts with YouTube's terms and the copyright rule above. Ark can download their own uploads from YouTube Studio.
 - Handle rules (verified 2026-10-23; TikTok/Instagram from third-party sources): to work on all 3 platforms, use **letters, numbers, `.` and `_` only, no hyphens, no `.` at the start or end, no `..`, max 24 chars** (TikTok's limit is the tightest).

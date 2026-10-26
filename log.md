@@ -102,3 +102,22 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 - **Web-checked the 5 history scripts.** Everything held up except three lines, now fixed: H01's Meredith quote (now uses the commonly cited wording), H01's ending (the emu bounty scheme already existed in 1923 and continued, so it wasn't new), and H04's law line (the engineer sign-off rules started in Boston, not as a Massachusetts law).
 - **Web-checked the psych scripts' outside-the-notes claims.** P04's houseplant numbers (7/47 vs. 13/44 deaths ≈ 15% vs. 30%, groups on different floors), P05's Terman catastrophizing study, and P03's Barefoot citation all hold. Fixes: P02 now says the loneliness → seeing faces in objects finding (Epley 2008) **failed a 2024 registered replication**, and P01 no longer puts unconfirmed actions on Joy. P03's chair story is told different ways (upholsterer vs. secretary), so the script keeps "as the story goes."
 - **Scripts now come as a PDF.** Ark finds .md hard to read. Added `scripts/make-pdf.mjs` (no dependencies; uses headless Chrome like the avatar builder), which builds every script into `scripts/all-scripts.pdf`: a cover list, then one script per page with the spoken lines in large type. The rule is in `CLAUDE.md`: always deliver scripts as PDF.
+
+## 2026-10-25 — Session 5 (Sun night into Mon, ET, Windows PC)
+
+**What we did**
+- First session on Ark's **Windows PC** (`F:\money-builder`). Installed Git, FFmpeg, Python 3.12 (winget), plus faster-whisper + OpenCV in `.venv/`.
+- Ark **filmed P01–P04** (Inside Out, Cast Away, The Bear, houseplant): 1080p landscape, 70–110 s raw each. Moved them to `work/raw/`.
+- Built the editing tool `tools/roughcut/` (transcribe → hand-written edit list → render). Researched short-form style first: hook in the first seconds, jump cuts with no dead air, light punch-in zooms, word-by-word highlighted captions in the middle band clear of the platform UI (mostly vendor blogs, so treated as guidance, not fact).
+- Cut repeats, keeping the last full take: Cast Away (loneliness line ×2, "Both feeling lonely…" ×3, ending ×2), The Bear (ending ×4–5), houseplant ("In 1976…" ×2). Caption fixes from the scripts: "Karmi" → Carmy, "social tiers" → ties, "minds and things" → in things, "Yes, Chef" in quotes.
+- **Stills rule changed (Ark's call):** short studio publicity stills are OK; still no clips. 6 TMDB stills approved by Ark and placed (Inside Out ×2, Cast Away ×2, The Bear ×2).
+- Output: `work/out/P01–P04` (46–55 s each), not posted yet.
+
+**What worked**
+- Word-level transcripts made the repeated takes obvious, and they're fixable by editing a small JSON file instead of a timeline.
+
+**What didn't**
+- The face detector missed on one cut and framed Ark off-center. Fixed: more frames per cut, and reuse the last framing when no face is found.
+
+**Next step**
+- Ark watches the 4 edits and notes anything to change. Then **post P01** to YouTube Shorts (+ TikTok/Reels) and log it in `content-tracker.csv`. Film P05 and the history batch vertical if possible.

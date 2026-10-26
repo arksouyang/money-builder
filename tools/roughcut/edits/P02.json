@@ -1,0 +1,27 @@
+{
+  "source": "work/raw/castaway raw.mp4",
+  "out": "work/out/P02-cast-away.mp4",
+  "hook": "Wilson saved his life",
+  "keep": [
+    [1.96, 7.92, 0],
+    [9.26, 10.12, 1],
+    [11.04, 17.50, 0],
+    [17.96, 19.66, 0],
+    [20.64, 25.58, 1],
+    [26.10, 29.76, 0],
+    [30.60, 37.96, 1],
+    [38.52, 41.40, 1],
+    [57.82, 60.48, 0],
+    [61.20, 64.56, 1],
+    [65.10, 68.36, 1],
+    [79.88, 82.94, 0],
+    [97.64, 99.92, 1],
+    [101.14, 102.88, 0],
+    [103.86, 105.22, 1]
+  ],
+  "word_fixes": [[13.04, "in"], [34.94, "ties"]],
+  "stills": [
+    {"src_start": 1.96, "src_end": 4.40, "image": "work/stills/cast-away-chuck.jpg", "label": "Cast Away: Chuck"},
+    {"src_start": 17.96, "src_end": 19.66, "image": "work/stills/cast-away-wilson.jpg", "label": "Wilson's handprint face"}
+  ]
+}

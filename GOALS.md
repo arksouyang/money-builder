@@ -8,7 +8,7 @@
 
 | Channel | Posted |
 |---|---|
-| Psychology | 0 / 5 |
+| Psychology | 0 / 5 (P01–P04 filmed + edited, ready to post) |
 | World History | 0 / 5 |
 | Anime & Webtoons | 0 / 5 |
 | Movies & TV | 0 / 5 |
