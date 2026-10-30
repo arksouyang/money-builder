@@ -138,3 +138,14 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 **Next step**
 - Ark reads the PDF, picks 2–3 to film first.
 - **GOALS.md updated (Ark's call):** psych's part of Round 1 is now **5 long videos** instead of 5 Shorts. The already-edited old Shorts P01–P04 are listed as a bonus to post anyway.
+- **Eye contact (Ark asked):** Claude can't redraw eyes itself. Try CapCut's built-in Eye Contact on one clip (unverified in Ark's version); best fix is the script right under the lens, filmed section by section. Descript's version is paid, so it's out under the no-spending rule.
+- **NBA scripts rewritten:** Ark still wasn't happy with P06–P08, so we went news-first. Claude pulled the current NBA news, then psych angles for all 20 topics, and Ark said to write them all. **20 new scripts: P19–P27 long (3:30–4:00), P28–P38 under 3 min (1:45–2:15), also postable as Shorts.** Old P06–P08 moved to `scripts/psychology/old-nba/`.
+- Every study was web-checked, and weak spots are said out loud in the scripts: too-much-talent effect (later reanalysis found little NBA evidence), NBA sunk costs (a 2015 study found no effect), capuchin study (5 monkeys, still debated), culture of honor (partial replication).
+- PDF fixes: numbered sections were printing small (the label check missed digits), and labels no longer strand at the bottom of a page. PDF now has 35 scripts, 87 pages.
+
+**Open**
+- `[UPDATE BEFORE FILMING]` lines: P22, P24, P34, P35. Also recheck stats in P23 and P27, and Kawhi's and Haliburton's status in P33 and P31.
+- A few facts come from secondary sources and are noted under each script: the NTSB 73% figure, Rubinstein's "fewer pieces" story, and the Ross & Sicoly over-100% total.
+
+**Next step**
+- Ark reads the PDF and picks 2–3 NBA scripts to film. P21 (Tatum-Brown) should post before Tue Nov 10.

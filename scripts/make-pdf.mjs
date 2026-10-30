@@ -25,7 +25,7 @@ const block = (b) => {
   if (b === "---") return "<hr>";
   if (lines.every((l) => l.startsWith("- "))) return `<ul>${lines.map((l) => `<li>${inline(l.slice(2))}</li>`).join("")}</ul>`;
   // A beat label followed by its spoken line: show the line big, it's what gets read on camera.
-  if (/^\*\*[A-Z]/.test(lines[0]) && lines.length > 1 && !lines[0].includes(":**"))
+  if (/^\*\*[A-Z0-9]/.test(lines[0]) && lines.length > 1 && !lines[0].includes(":**"))
     return `<p class="label">${inline(lines[0])}</p><p class="say">${lines.slice(1).map(inline).join("<br>")}</p>`;
   return `<p>${lines.map(inline).join("<br>")}</p>`;
 };
@@ -34,6 +34,7 @@ const toHtml = (md) => md.trim().split(/\n\s*\n/).map((b) => block(b.trim())).jo
 
 assert.equal(inline("**a** *b* [c](d) <x>"), '<strong>a</strong> <em>b</em> <a href="d">c</a> &lt;x&gt;');
 assert.equal(block("**HOOK (0–3 s)**\nHi."), '<p class="label"><strong>HOOK (0–3 s)</strong></p><p class="say">Hi.</p>');
+assert.equal(block("**1. BEAT**\nHi."), '<p class="label"><strong>1. BEAT</strong></p><p class="say">Hi.</p>');
 
 const files = CHANNELS.flatMap((c) => {
   // ._ files are macOS junk on exFAT
@@ -48,13 +49,13 @@ const css = `
   .cover h1 { page-break-before: avoid; font-size: 28pt; }
   ul { padding-left: 18px; color: #444; }
   hr { border: 0; border-top: 1px solid #ccc; margin: 14px 0; }
-  .label { margin: 16px 0 2px; font-size: 10pt; color: #6b3fa0; letter-spacing: .04em; }
+  .label { margin: 16px 0 2px; font-size: 10pt; color: #6b3fa0; letter-spacing: .04em; break-after: avoid; }
   .say { margin: 0; font-size: 15pt; line-height: 1.5; }
   a { color: #1a1a1a; }
   code { font-size: 10pt; }`;
 
 const titleOf = (f) => readFileSync(f, "utf8").match(/^# (.*)/m)[1];
-const cover = `<div class="cover"><h1>Shorts scripts</h1><p>Built ${new Date().toISOString().slice(0, 10)} · ${files.length} scripts</p>
+const cover = `<div class="cover"><h1>Scripts</h1><p>Built ${new Date().toISOString().slice(0, 10)} · ${files.length} scripts</p>
   <ul>${files.map((f) => `<li>${inline(titleOf(f))}</li>`).join("")}</ul></div>`;
 const body = files.map((f) => toHtml(readFileSync(f, "utf8"))).join("\n");
 
