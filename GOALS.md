@@ -8,7 +8,7 @@
 
 | Channel | Posted |
 |---|---|
-| Psychology | 0 / 5 long videos (2–5 min, P09–P21, P24 and P25 scripted). Bonus: NBA Shorts P28, P31, P34 and P36 are scripted, and old Shorts P01–P04 are filmed + edited, post them anyway |
+| Psychology | 0 / 5 long videos (2–5 min, 9 scripted and evidence-checked: P12, P13, P14, P17, P19, P20, P21, P24, P25). Bonus: NBA Shorts P28, P31, P34 and P36 are scripted, and old Shorts P01–P04 are filmed + edited, post them anyway |
 | World History | 0 / 5 |
 | Anime & Webtoons | 0 / 5 |
 | Movies & TV | 0 / 5 |

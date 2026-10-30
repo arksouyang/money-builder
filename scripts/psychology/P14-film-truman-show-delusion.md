@@ -2,7 +2,7 @@
 
 - **Category:** Film
 - **Concepts:** how culture shapes the content of delusions, the Gold brothers' research, surveillance in the age of reality TV
-- **Target length:** ~3:30 (~520 words) · regular video
+- **Target length:** ~3:15 (~500 words) · regular video
 - **Title:** A movie gave its name to a real psychiatric delusion
 - **Thumbnail text:** "THEY THOUGHT THEY WERE TRUMAN"
 
@@ -18,7 +18,7 @@ The psychiatrist was Joel Gold. Over the next few years, he saw several patients
 To be clear, it's not in the diagnostic manual. It's a *theme*, a specific flavor of a well-known type of delusion, mostly a mix of paranoia ("I'm being watched") and grandiosity ("my life is important enough to be a TV show"). It usually shows up as part of a serious condition like psychosis, which is treatable. This isn't a funny quirk. For the people who have it, it's frightening.
 
 **3. DELUSIONS FOLLOW THE NEWS**
-Here's why the Golds found it so interesting. The *categories* of delusions have barely changed across history: being persecuted, being watched, being controlled. But the *content* changes with the culture. Centuries ago, people believed they were being tormented by demons or witches. In the radio era, it was radio waves in their heads. During the Cold War, it was government implants and KGB spies. And once reality TV took over the world, it became hidden cameras. The brain's fears stay the same. It just borrows the scariest technology of the moment to explain them.
+Here's why the Golds found it so interesting. The *categories* of delusions have barely changed across history: being persecuted, being watched, being controlled. But the *content* changes with the culture. Centuries ago, people believed they were being tormented by demons or witches. In the radio era, it was radio waves in their heads. During the Cold War, it was government implants and KGB spies. And once reality TV took over the world, it became hidden cameras. There's hard data on this now. A 2025 study of 228 adults with psychosis at one US medical center found that over half described delusions involving technology, and the odds rose about 15 percent per year from 2016 to 2024. Eleven of them reported a version of the Truman Show delusion.
 
 **4. AND THEN THE WORLD CAUGHT UP**
 The wildest part: *Big Brother* premiered in the Netherlands in 1999, one year after *The Truman Show*. Within a decade, reality TV was everywhere. Now we have doorbell cameras, location sharing, and social media, where we basically broadcast our own lives on purpose. Ian Gold has argued that a culture this saturated with surveillance gives an anxious mind plenty of material. The Truman Show delusion may just be the first delusion of the reality-TV age.
@@ -30,9 +30,12 @@ So a movie about a fake life ended up describing a very real experience for real
 
 **Visuals:** 1–3 s publicity still of Truman (TMDB, Ark approves), no clips or movie audio. A timeline graphic: demons → radio waves → implants → cameras.
 
+**Evidence check:** this script describes case reports and records, so it makes no cause-and-effect claim. Single-center data, stated as such. Ian Gold's surveillance point is labeled as his argument.
+
 **Sources:**
 - Gold, J., & Gold, I. (2012). The "Truman Show" delusion: Psychosis in the global village. *Cognitive Neuropsychiatry*, 17(6), 455–472.
 - Gold, J., & Gold, I. (2014). *Suspicious Minds: How Culture Shapes Madness*. Free Press.
 - McGill University newsroom coverage of Ian Gold's research.
+- Burns, A. V., Nelson, K., Wang, H., Hegarty, E. M., & Cohn, A. B. (2025). "The algorithm is hacked." *British Journal of Psychiatry* (doi 10.1192/bjp.2025.10452). One center, 228 adults.
 - *Big Brother* premiered in the Netherlands in September 1999.
 - Mentions psychosis: kept non-stigmatizing, with a nudge toward professional help.
