@@ -41,6 +41,7 @@
   2. World History
   3. Anime & Webtoons
   4. Movies & TV
+- **Psych channel format changed (Ark, 2026-10-30):** 2–5 minute videos, not 60 s Shorts. Topics: NBA, TV, film, politics (nonpartisan, how politicians speak) and esports (LoL) psychology; current events welcome. Videos over 3 min can't be Shorts (YouTube's Shorts cap is 3 min, verified 2026-10-30), so they post as regular videos. History stays on Shorts for now.
 - **Test design:** Round 1 = 5 Shorts per channel (20 total). Round 2 = 10 per channel (40 total). Then **reassess with the numbers in `content-tracker.csv`**. The winning topic(s) move to longform; losers pause.
 - **Copyright:** for anime/webtoon/movie/TV topics, talk to camera with little or no copyrighted footage. YouTube allows reused content only with meaningful transformation, and copyright still applies.
 - **Stills (changed 2026-10-25, Ark's call):** short (1–3 s) **studio publicity stills** over Ark's commentary are OK; **no video clips, no movie audio**. Source: TMDB backdrops (studio publicity images), downloaded to `work/stills/` only after Ark approves each one. Stills in commentary are lower risk than clips, but fair use isn't guaranteed and Content ID doesn't check it.

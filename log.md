@@ -121,3 +121,19 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 
 **Next step**
 - Ark watches the 4 edits and notes anything to change. Then **post P01** to YouTube Shorts (+ TikTok/Reels) and log it in `content-tracker.csv`. Film P05 and the history batch vertical if possible.
+
+## 2026-10-30 — Session 5 (Fri, ET, local session on the Mac)
+
+**What we did**
+- Ark didn't love the 60 s psych Shorts and **changed the psych channel's format: 2–5 minute videos** on NBA, TV, film, politics and esports psychology. Old P01–P05 moved to `scripts/psychology/old-shorts/` (kept, but left out of the PDF).
+- Researched current events: Cavs blew a 29-point lead to LeBron's Sixers on opening night (Oct 22, 114–106); Knicks are the 2026 champs; Worlds 2026 is in North America, T1 (champs 2023–25) made the quarterfinals in Allen, TX, and the final is Nov 14 at Barclays Center; US midterms are Tue Nov 3.
+- Wrote **13 new psych scripts (P06–P18)**, ~440–590 words each (~3–4 min): NBA ×3 (hot hand, granny free throws, Cavs collapse), TV ×3 (Breaking Bad, The Office, Succession), film ×3 (Dark Knight ferries, Whiplash, Truman Show delusion), politics ×2 (simple speech, dodging; both nonpartisan), esports ×2 (Faker at 30, tilt). Every one has sources, and the key facts were web-checked.
+- Verified: YouTube Shorts max is 3 min, so these post as regular videos. Riot's fan-content policy allows game assets with original commentary, not ripped broadcasts.
+- Rebuilt `scripts/all-scripts.pdf` (13 psych + 5 history).
+
+**Open**
+- GOALS.md still says "20 Shorts posted." Ask Ark whether the psych target becomes a number of long videos.
+- Time-sensitive: P08 (Cavs) and P15/P16 (midterms Nov 3) are worth filming first. P17 needs its bracket line updated right before filming.
+
+**Next step**
+- Ark reads the PDF, picks 2–3 to film first.
