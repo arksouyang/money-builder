@@ -149,3 +149,12 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 
 **Next step**
 - Ark reads the PDF and picks 2–3 NBA scripts to film. P21 (Tatum-Brown) should post before Tue Nov 10.
+
+**Evidence audit (same day, Ark's call)**
+- Ark asked to remove anything not solidly supported. The first pass had only confirmed that studies existed, so this pass looked for meta-analyses, failed replications and bias corrections.
+- **Removed 11 (moved to `scripts/psychology/old-nba/`):** P22 arrival fallacy (a pop term, and a 2020 pre-registered lottery study contradicts Brickman), P23 LeBron aging (too-much-talent disputed, mostly theory plus anecdote), P26 Jokić (self-complexity meta-analysis found little buffering), P27 loser's curse (NFL only, disputed in 2026), P29 culture of honor (partial replication, anonymous reports), P30 Jalen Williams (thin evidence, sensitive), P32 Ewing Theory (a folk theory), P33 Kawhi (2015 study found no NBA sunk-cost effect), P35 underdog (no replications found), P37 NBA Cup (no evidence it changes effort, no meta-analysis), P38 booing (the link was Claude's inference).
+- **Kept 9:** long P19, P20, P21, P24, P25; Shorts P28, P31, P34, P36.
+- **Rewritten:** P19 dropped the external-focus fix (McKay et al. 2024 shrank it to small or nil). P20 dropped the capuchin cucumber study (Ritov et al. 2024 meta-analysis found no evidence) for the ultimatum game, and added the UCSD phishing experiment. P24 dropped the 15-accident airline hook for Berman et al. 2002 NBA data and a 65-study meta-analysis.
+- P25 is the weakest keeper: consistent surveys, no meta-analysis found.
+- **Not audited yet:** P09–P18 still rest on the first, lighter check.
+

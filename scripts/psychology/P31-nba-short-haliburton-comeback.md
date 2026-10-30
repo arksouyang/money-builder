@@ -27,6 +27,8 @@ We talk about recovery like a straight line. It isn't. It's two lines: your body
 
 **Visuals:** no NBA footage or photos. Two lines on a whiteboard, one rising faster than the other. Text card: "kinesiophobia." Not medical advice.
 
+**Evidence check:** meta-analyses, but on ACL tears, not Achilles or hamstring injuries. The script says so, and it doesn't claim Haliburton feels this.
+
 **Sources (web-checked 2026-10-30):**
 - TSN / Yardbarker / Field Level Media, Oct 2026 (hamstring, stats). "Couple of weeks" came from Rick Carlisle via ClutchPoints, so recheck before filming.
 - Ardern, C. L., et al. (2014). Fifty-five per cent return to competitive sport following ACL reconstruction. *BJSM*, 48(21). Ardern, C. L., et al. (2011). *BJSM*, 45(7), 596–606 (fear of reinjury as the most common reason).

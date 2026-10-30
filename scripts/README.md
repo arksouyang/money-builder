@@ -4,7 +4,7 @@ One file per video, grouped by channel.
 
 | Folder | Channel | Round 1 |
 |---|---|---|
-| `psychology/` | `ark.psych.archive` | **P09–P27: 2–5 min videos. P28–P38: NBA, under 3 min, post as Shorts too.** Left out of the PDF: old 60 s Shorts in `psychology/old-shorts/`, replaced NBA scripts P06–P08 in `psychology/old-nba/` |
+| `psychology/` | `ark.psych.archive` | **P09–P21, P24, P25: 2–5 min videos. P28, P31, P34, P36: NBA, under 3 min, post as Shorts too.** Left out of the PDF: old 60 s Shorts in `psychology/old-shorts/`, replaced or removed NBA scripts in `psychology/old-nba/` |
 | `history/` | `ark.history.archive` | H01–H05 written |
 | `anime-webtoons/` | not made yet | 0 |
 | `movies-tv/` | not made yet | 0 |
@@ -13,7 +13,9 @@ One file per video, grouped by channel.
 
 **Psych scripts (from 2026-10-30):** 2–5 minute videos on NBA, TV, film, politics and esports psychology. Cold open → 3–5 sections → outro. ~450–600 words ≈ 3–4 min spoken. Anything over 3 minutes goes up as a regular YouTube video, not a Short.
 
-**NBA scripts (P19–P38, 2026-10-30):** built from current news. P19–P27 are long (3:30–4:00). P28–P38 are hook → beats → ending, 1:45–2:15, capped at 400 words so they stay under YouTube's 3-minute Shorts limit. Lines marked `[UPDATE BEFORE FILMING]` need a fresh record or stat.
+**NBA scripts (2026-10-30):** built from current news. P19, P20, P21, P24 and P25 are long (3:30–4:15). P28, P31, P34 and P36 are hook → beats → ending, 2:00–2:15, capped at 400 words so they stay under YouTube's 3-minute Shorts limit. Lines marked `[UPDATE BEFORE FILMING]` need a fresh record or stat.
+
+**Evidence bar (Ark, 2026-10-30):** a psych script's core claim needs a meta-analysis or independent replications, checked for later failures. Each NBA script has an **Evidence check** line. P22, P23, P26, P27, P29, P30, P32, P33, P35, P37 and P38 were removed for missing that bar (in `psychology/old-nba/`).
 
 **History scripts (Shorts):** hook (first 3 s, start mid-thought) → 3 beats → ending. ~140–150 words ≈ 45–55 s spoken. Read it out loud once before filming and cut any line you trip on. Your own words beat mine on camera.
 

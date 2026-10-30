@@ -27,6 +27,8 @@ So if you had one bad week, one bad test, one bad date, don't rewrite your whole
 
 **Visuals:** no NBA footage or photos. Actually flip a coin on camera. A quick code or spreadsheet sim of 30 coins is a nice cutaway: Ark can ask Claude for it. Note the coin math assumes every game is a 50-50: it's a demonstration, not a forecast.
 
+**Evidence check:** regression to the mean and the coin math are statistics, not a study that could fail to replicate.
+
 **Sources (web-checked 2026-10-30):**
 - NBA.com Starting 5, Oct 29, 2026 (first 5-0 since 2014). ESPN (52 wins, VanVleet). Math: (1/2)^5 = 1/32; 30/32 ≈ 0.94 teams; 5/82 ≈ 6%.
 - Tversky, A., & Kahneman, D. (1971). Belief in the law of small numbers. *Psychological Bulletin*, 76(2), 105–110.

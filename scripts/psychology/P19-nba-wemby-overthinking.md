@@ -1,8 +1,8 @@
 # P19: Wembanyama missed 12 straight shots. His explanation was perfect.
 
 - **Category:** NBA · **Format:** long, regular video
-- **Concepts:** choking, explicit monitoring, reinvestment, external focus of attention
-- **Target length:** ~4:00 (~590 words)
+- **Concepts:** choking, explicit monitoring, reinvestment, choking under pressure
+- **Target length:** ~4:15 (~640 words)
 - **Title:** Why thinking harder makes great players worse
 - **Thumbnail text:** "1 FOR 13"
 
@@ -21,21 +21,24 @@ In 2002, psychologist Sian Beilock and her colleagues tested this on experienced
 When you're learning something, every step needs your attention. After thousands of reps, the skill stops living in the part of your brain that narrates. It just runs. Psychologist Rich Masters called the problem "reinvestment": you pour conscious thought back into a movement that doesn't need it anymore, and you break it. It's like walking down stairs and suddenly thinking about your knees. So attention is great for learning, and terrible for performing. The same habit that built the skill can wreck it.
 
 **4. WHAT PRESSURE DOES**
-And pressure is what flips the switch. When the stakes go up, you naturally try to take control. You try harder. You check your form. Wembanyama had just lost in the NBA Finals, and everyone was calling him the next MVP. Now, I can't see inside his head, and it was one game. But he said it himself, and a week later he had 36 points and 14 rebounds in an overtime win, then 29 points on 14-of-21 shooting. The skill never left. It just needed him to get out of the way.
+And pressure is what flips the switch. When the stakes go up, you naturally try to take control. You try harder. You check your form. Wembanyama had just lost in the NBA Finals, and everyone was calling him the next MVP. Now, I can't see inside his head, and it was one game. But he said it himself, and a week later he had 36 points and 14 rebounds in an overtime win, then 29 points on 14-of-21 shooting. The skill never left. To be fair, there's a rival explanation: some researchers think pressure hurts mainly by distracting you, and the evidence supports both.
 
 **5. THE FIX ISN'T "DON'T THINK"**
-Telling yourself not to think doesn't work. Try not thinking about your tongue in your mouth right now. You're welcome. The fix is to give your brain a different job. Gabriele Wulf has studied this for decades, and a large 2021 review backed her up: people perform better when they focus on the outcome instead of their body. Not "bend my elbow." Just "the back of the rim." Not "move my wrist." Just "where the ball's going." You're not turning your brain off. You're pointing it at the target.
+Telling yourself not to think doesn't work. Try not thinking about your tongue in your mouth right now. You're welcome. Go back to the experiment. Experts did better when their attention had somewhere else to go. A 2006 study of skilled players dribbling under pressure found the same thing: focusing on their movements hurt, and a second task helped. So give your brain a different job. Now, you may have heard a popular version of this advice: focus on the target, not your body. For years, reviews backed it up. But a 2024 reanalysis corrected for studies that never got published, and the effect shrank to small or nothing. So I won't tell you that one's proven. What holds up is simpler. When you've mastered something, watching yourself do it can make it worse.
 
 **OUTRO**
-So if you ever freeze on something you know cold, a speech, a test, a word you've said a thousand times, you probably didn't forget it. You just started supervising it. Stop watching your hands. Look at the rim. Tell me in the comments: what's the thing you can only do when you don't think about it?
+So if you ever freeze on something you know cold, a speech, a test, a word you've said a thousand times, you probably didn't forget it. You just started supervising it. Stop watching your hands. Tell me in the comments: what's the thing you can only do when you don't think about it?
 
 ---
 
-**Visuals:** no NBA footage or photos. Text card for "1-for-13." Film the signature demo on paper, top-down. Beginner vs. expert graphic for the weak-foot twist. Cut to a cheap mini hoop or a crumpled paper ball into a bin for the "look at the rim" demo.
+**Visuals:** no NBA footage or photos. Text card for "1-for-13." Film the signature demo on paper, top-down. Beginner vs. expert graphic for the weak-foot twist.
+
+**Evidence check:** independent replications of skill-focused attention hurting experts. No meta-analysis found, and distraction theory is a live rival, so the script says so.
 
 **Sources (web-checked 2026-10-30):**
 - 1-for-13, 12 straight misses, "overthinking" quote (Newsweek; IBTimes, Oct 2026). Later games: NBA.com Starting 5, Oct 28 and Oct 29, 2026.
 - Beilock, S. L., Carr, T. H., MacMahon, C., & Starkes, J. L. (2002). When paying attention becomes counterproductive. *JEP: Applied*, 8(1), 6–16.
 - Masters, R. S. W. (1992). Knowledge, knerves and know-how. *British Journal of Psychology*, 83(3).
-- Chua, L.-K., Jimenez-Diaz, J., Lewthwaite, R., Kim, T., & Wulf, G. (2021). Superiority of external attentional focus. *Psychological Bulletin*, 147(6), 618–645.
+- Jackson, R. C., Ashford, K. J., & Norsworthy, R. (2006). Attentional focus, dispositional reinvestment, and skilled motor performance under pressure. *Journal of Sport & Exercise Psychology*, 28(1). Kinrade, N. P., Jackson, R. C., & Ashford, K. J. (2010). Dispositional reinvestment and skill failure. *Psychology of Sport and Exercise*, 11(4).
+- McKay, B., et al. (2024). Reporting bias, not external focus. *Psychological Bulletin* (doi 10.1037/bul0000451). Why this script doesn't use the "external focus" fix.
 - "The Centipede's Dilemma," attributed to Katherine Craster, 1871 (public domain).
