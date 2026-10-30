@@ -1,20 +1,20 @@
 # Goals
 
-## ▶ ACTIVE: Shorts Test, Round 1: 20 Shorts posted (5 per channel)
+## ▶ ACTIVE: Round 1: 5 posts per channel (psych = 5 long videos, the rest = 5 Shorts each)
 
 ```
-[░░░░░░░░░░░░░░░░░░░░]  0 / 20 Shorts   (0%)
+[░░░░░░░░░░░░░░░░░░░░]  0 / 20 posts   (0%)
 ```
 
 | Channel | Posted |
 |---|---|
-| Psychology | 0 / 5 (P01–P04 filmed + edited, ready to post) |
+| Psychology | 0 / 5 long videos (2–5 min, P06–P18 scripted). Bonus: old Shorts P01–P04 are filmed + edited, post them anyway |
 | World History | 0 / 5 |
 | Anime & Webtoons | 0 / 5 |
 | Movies & TV | 0 / 5 |
 
 **Target date:** Sun Nov 15, 2026
-**Done when:** `content-tracker.csv` has 20 rows (5 per channel), each posted to YouTube Shorts (TikTok/Reels cross-posts count as a bonus).
+**Done when:** `content-tracker.csv` has 5 posted videos per channel: 5 long psych videos on YouTube, 5 Shorts each for the other three (TikTok/Reels cross-posts count as a bonus). Psych target changed from Shorts to long videos on 2026-10-30 (Ark's call).
 **Why this milestone:** money from content is months away, so *shipping* is the win you can see right now.
 
 ---

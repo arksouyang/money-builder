@@ -137,3 +137,4 @@ Optional (whenever, local session on the Mac): `guides/01-first-sermon.md` Step 
 
 **Next step**
 - Ark reads the PDF, picks 2–3 to film first.
+- **GOALS.md updated (Ark's call):** psych's part of Round 1 is now **5 long videos** instead of 5 Shorts. The already-edited old Shorts P01–P04 are listed as a bonus to post anyway.
